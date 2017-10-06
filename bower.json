@@ -1,15 +1,14 @@
 {
-  "name": "angular-todo",
+  "name": "IonicaWineCellar",
   "description": "",
   "main": "index.js",
   "authors": [
     "Luca Licata"
   ],
   "license": "ISC",
-  "homepage": "https://github.com/Diomede81/angular-todo",
+  "homepage": "https://github.com/Diomede81/ionicawinecellar.git",
   "ignore": [
     "**/.*",
-    "node_modules",
     "bower_components",
     "test",
     "tests"
@@ -20,6 +19,7 @@
     "angular": "^1.6.4",
     "angular-route": "^1.6.4",
     "a0-angular-storage": "^0.0.15",
-    "angular-ui-router": "^1.0.7"
+    "angular-ui-router": "^1.0.7",
+    "jquery": "^3.2.1"
   }
 }
