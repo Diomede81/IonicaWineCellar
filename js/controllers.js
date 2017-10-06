@@ -102,7 +102,7 @@
                 $scope.basket = store.get('basketCookie');
                 $scope.basketTotal = BasketService.basketItemsTotals($scope.basket);
                 if ($scope.basket.length === 0){
-                    DomManipulation.makeBasketIconDisappear($scope.basket);
+                    DomManipulation.makeBasketIconAppearDisappear('disappear',$scope.basket);
                 }
             };
 

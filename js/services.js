@@ -26,14 +26,17 @@ angular.module('ionicaControllersServices',['ionicaManipulationServices','angula
         var BasketService =  {
 
             addItemTobasket: function (item,element,quantity,basket) {
+
                 console.log(item);
                 console.log(element);
                 if (basket === null) {
+
                         basket = [];
                         item.wine.totalBasket += quantity;
                         basket.push(item.wine);
                         store.set('basketCookie', basket);
                         DomManipulation.addItemToBasketDom(element);
+                        DomManipulation.makeBasketIconAppearDisappear('appear');
 
                 } else {
                     var index = -1;

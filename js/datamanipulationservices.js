@@ -143,10 +143,19 @@
                 },
 
 
-                makeBasketIconDisappear: function(basket){
-                    basket = null;
-                    store.set('basketCookie',basket);
-                    angular.element('#navbar-basket-icon').css('display','none');
+                makeBasketIconAppearDisappear: function(action,basket){
+                    if(action === 'disappear') {
+
+                        basket = null;
+                        store.set('basketCookie', basket);
+                        angular.element('#navbar-basket-icon').css('display', 'none');
+                    }
+
+                    else {
+
+                        angular.element('#navbar-basket-icon').css('display', 'block');
+
+                    }
 
                 },
 

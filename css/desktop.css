@@ -194,10 +194,7 @@
     div.carousel-header-div-container img{
         display:block;
     }
-
-    div.feedback-carousel{
-        margin-top:60px;
-    }
+    
 
     .carousel-active-text-animation {
         transition: opacity 2s;
@@ -432,7 +429,6 @@
 
     /* wines.html page - nav-tab selectors */
     .nav.nav-tabs {
-        margin-top: 70px;
         border: solid 1px white;
         background-color: rgb(100, 34, 34);
     }

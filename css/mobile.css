@@ -255,7 +255,7 @@
 
     /* wines.html page - nav-tab selectors */
     .nav.nav-tabs {
-        margin-top: 80px;
+
         border: solid 1px white;
         background-color: rgb(100, 34, 34);
     }
@@ -749,8 +749,6 @@
         padding: 10px;
     }
 
-    div.feedback-carousel {
-        margin-top: 80px;
-    }
+
 
 }

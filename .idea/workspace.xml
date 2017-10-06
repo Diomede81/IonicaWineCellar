@@ -1,113 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c23a7aef-c98e-4a72-97ee-2bd1154b9d73" name="Default" comment="Navbar HTML container">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/450915.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/6939950-wine-red-glass.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/741Bt3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/DB2011AU01564_medium.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/Depositphotos_14548049_l.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/HI_RES_Updated_Group_Image.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/Mercedes-Benz-Vision-Van-Concept-image-4-630x420.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/The-Healthy-Wine-List-Picture.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/bashcorpo_com__paper1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/bottles-of-wine.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/cantina-botti-vino.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/cantine-lavorata.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/carousel1.jpeg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/carousel2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/carousel2edited.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/carousel3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/cs-restaurant-air-quality.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/customers/Luca.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/customers/dennis.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/customers/magda.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/customers/sara.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/download.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/draper-inline.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/dsc5800.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/feedback/owner1.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/feedback/owner2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/feedback/owner3.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/https-%2F%2Fcdn.evbuc.com%2Fimages%2F30831267%2F140263949489%2F1%2Foriginal.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/icons/4c76d1157548c6ab914e24645c0efb85-wine-bottles-basket-icon-by-vexels.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/kinsale-road-back1-600px.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/large_0121_wine-italy-prosecco-adeletto.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/most beautiful wine high resolution wallpaper.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/new logo.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/newsandtips/ciscoevent.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/newsandtips/italiaappellation.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/parallax2jpg.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/redwine.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/redwinesbackground.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/s2016-vineyards-dusk03c.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/sparkling.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/territorio-1300x638.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/usbefore2.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/white.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/whitewine.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/wine-makers-harvesting.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/wine_10-RansomCattrallPinotNoir.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/wine_PNG9465.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/wines/amar.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/wines/anfisyabianco.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/wines/anfisyarosato.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/wines/anfisyarosso.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/wines/bivongi.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/wines/cab.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/wines/chardonnay.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/wines/chiantiriserva.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/wines/gavioli.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/wines/generic.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/wines/greco.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/wines/greconero.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/wines/inzolia.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/wines/merlot.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/wines/montep.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/wines/nerodavola.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/wines/pinotblush.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/wines/pinotgrigio.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/wines/prosecco.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/img/wines/sauvignonblanc.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/mobile.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/css/reset.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/animations.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/controllers.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/datamanipulationservices.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/directives.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/services.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/aboutUs.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/basketPage.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/enquiriesForm.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/navMenu.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/order_form.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/ourCustomers.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/pageFooter.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/redwines.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/sparklingwines.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/whitewines.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/wines.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wines.json" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/README.md" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/css/main.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/controller.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/directive.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/js/service.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/npm-debug.log" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/LogOutPage.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/directives/navbar.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/directives/todo-table.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/edit-todo.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/login.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/register.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/templates/todo.html" afterPath="" />
+    <list default="true" id="c23a7aef-c98e-4a72-97ee-2bd1154b9d73" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower.json" afterPath="$PROJECT_DIR$/bower.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/app.js" afterPath="$PROJECT_DIR$/js/app.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/package.json" afterPath="$PROJECT_DIR$/package.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/home.html" afterPath="$PROJECT_DIR$/templates/home.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/desktop.css" afterPath="$PROJECT_DIR$/css/desktop.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/css/mobile.css" afterPath="$PROJECT_DIR$/css/mobile.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/controllers.js" afterPath="$PROJECT_DIR$/js/controllers.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/datamanipulationservices.js" afterPath="$PROJECT_DIR$/js/datamanipulationservices.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/services.js" afterPath="$PROJECT_DIR$/js/services.js" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -127,8 +27,8 @@
             <file leaf-file-name="desktop.css" pinned="false" current-in-tab="true">
               <entry file="file://$PROJECT_DIR$/css/desktop.css">
                 <provider selected="true" editor-type-id="text-editor">
-                  <state relative-caret-position="210">
-                    <caret line="477" column="0" lean-forward="false" selection-start-line="477" selection-start-column="0" selection-end-line="477" selection-end-column="0" />
+                  <state relative-caret-position="306">
+                    <caret line="196" column="4" lean-forward="false" selection-start-line="196" selection-start-column="4" selection-end-line="196" selection-end-column="4" />
                     <folding />
                   </state>
                 </provider>
@@ -154,26 +54,6 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="navMenu.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/navMenu.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="324">
-              <caret line="18" column="79" lean-forward="false" selection-start-line="18" selection-start-column="79" selection-end-line="18" selection-end-column="79" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="order_form.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/order_form.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1404">
-              <caret line="78" column="0" lean-forward="false" selection-start-line="78" selection-start-column="0" selection-end-line="78" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="ourCustomers.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/ourCustomers.html">
           <provider selected="true" editor-type-id="text-editor">
@@ -184,25 +64,22 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pageFooter.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="pageFooter.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/pageFooter.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
-              <caret line="9" column="42" lean-forward="false" selection-start-line="9" selection-start-column="42" selection-end-line="9" selection-end-column="42" />
+            <state relative-caret-position="54">
+              <caret line="3" column="8" lean-forward="false" selection-start-line="3" selection-start-column="8" selection-end-line="3" selection-end-column="8" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="redwines.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/redwines.html">
+      <file leaf-file-name="mobile.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/css/mobile.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="36">
-              <caret line="2" column="26" lean-forward="false" selection-start-line="2" selection-start-column="26" selection-end-line="2" selection-end-column="26" />
-              <folding>
-                <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#1;n#div#0;n#!!top" expanded="true" />
-              </folding>
+            <state relative-caret-position="147">
+              <caret line="740" column="5" lean-forward="true" selection-start-line="740" selection-start-column="5" selection-end-line="740" selection-end-column="5" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -217,11 +94,31 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="wines.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/templates/wines.html">
+      <file leaf-file-name="controllers.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/controllers.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="918">
-              <caret line="51" column="0" lean-forward="false" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
+            <state relative-caret-position="245">
+              <caret line="104" column="65" lean-forward="false" selection-start-line="104" selection-start-column="36" selection-end-line="104" selection-end-column="65" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="services.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/js/services.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="452">
+              <caret line="38" column="80" lean-forward="false" selection-start-line="38" selection-start-column="80" selection-end-line="38" selection-end-column="80" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="datamanipulationservices.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/datamanipulationservices.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="245">
+              <caret line="161" column="16" lean-forward="false" selection-start-line="161" selection-start-column="16" selection-end-line="161" selection-end-column="16" />
               <folding />
             </state>
           </provider>
@@ -266,6 +163,7 @@
       <find>wine-box</find>
       <find>body</find>
       <find>background-image</find>
+      <find>feedback-ca</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -295,18 +193,13 @@
         <option value="$PROJECT_DIR$/templates/register.html" />
         <option value="$PROJECT_DIR$/js/controller.js" />
         <option value="$PROJECT_DIR$/js/directives.js" />
-        <option value="$PROJECT_DIR$/js/controllers.js" />
         <option value="$PROJECT_DIR$/templates/ourCustomers.html" />
         <option value="$PROJECT_DIR$/templates/navMenu.html" />
-        <option value="$PROJECT_DIR$/css/mobile.css" />
         <option value="$PROJECT_DIR$/templates/home.html" />
         <option value="$PROJECT_DIR$/templates/wines.html" />
         <option value="$PROJECT_DIR$/templates/redwines.html" />
-        <option value="$PROJECT_DIR$/css/desktop.css" />
         <option value="$PROJECT_DIR$/templates/sparklingwines.html" />
         <option value="$PROJECT_DIR$/templates/whitewines.html" />
-        <option value="$PROJECT_DIR$/js/datamanipulationservices.js" />
-        <option value="$PROJECT_DIR$/js/services.js" />
         <option value="$PROJECT_DIR$/templates/basketPage.html" />
         <option value="$PROJECT_DIR$/templates/enquiriesForm.html" />
         <option value="$PROJECT_DIR$/templates/order_form.html" />
@@ -315,6 +208,11 @@
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/js/app.js" />
         <option value="$PROJECT_DIR$/templates/pageFooter.html" />
+        <option value="$PROJECT_DIR$/css/mobile.css" />
+        <option value="$PROJECT_DIR$/css/desktop.css" />
+        <option value="$PROJECT_DIR$/js/controllers.js" />
+        <option value="$PROJECT_DIR$/js/datamanipulationservices.js" />
+        <option value="$PROJECT_DIR$/js/services.js" />
       </list>
     </option>
   </component>
@@ -330,10 +228,10 @@
     <handled-path value="$PROJECT_DIR$/node_modules" />
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="1652" />
-    <option name="y" value="-11" />
-    <option name="width" value="1869" />
-    <option name="height" value="1092" />
+    <option name="x" value="1812" />
+    <option name="y" value="88" />
+    <option name="width" value="1545" />
+    <option name="height" value="868" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -358,6 +256,22 @@
               <item name="ionicaWineCellarFinal" type="b2602c69:ProjectViewProjectNode" />
               <item name="ionicaWineCellarFinal" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="ionicaWineCellarFinal" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ionicaWineCellarFinal" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ionicaWineCellarFinal" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ionicaWineCellarFinal" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ionicaWineCellarFinal" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ionicaWineCellarFinal" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+              <item name="testing" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -375,18 +289,18 @@
     <property name="list.type.of.created.stylesheet" value="CSS" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/css" />
-      <recent name="$PROJECT_DIR$" />
-      <recent name="C:\Users\Diomede\Desktop\academy\Angular\angular-todo" />
-      <recent name="C:\Users\Diomede\Desktop\academy\Angular\angular-todo\templates" />
-      <recent name="C:\Users\Diomede\Desktop\academy\Angular\angular-todo\directives" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/js" />
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/templates" />
       <recent name="$PROJECT_DIR$/css" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/js" />
+      <recent name="$PROJECT_DIR$/css" />
+      <recent name="$PROJECT_DIR$" />
+      <recent name="C:\Users\Diomede\Desktop\academy\Angular\angular-todo" />
+      <recent name="C:\Users\Diomede\Desktop\academy\Angular\angular-todo\templates" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -548,7 +462,7 @@
       <workItem from="1505974710670" duration="15000" />
       <workItem from="1507275897909" duration="7638000" />
       <workItem from="1507287252016" duration="12538000" />
-      <workItem from="1507300730099" duration="288000" />
+      <workItem from="1507300730099" duration="2327000" />
     </task>
     <task id="LOCAL-00001" summary="First Version of the app">
       <created>1494516426627</created>
@@ -585,11 +499,32 @@
       <option name="project" value="LOCAL" />
       <updated>1494672874353</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Final Version with One Single page enablement and routes">
+      <created>1507301112018</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1507301112018</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Final Version with One Single page enablement and routes">
+      <created>1507301617994</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1507301617994</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Tests with Karma/Jasmine for Services.js functions">
+      <created>1507301671987</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1507301671987</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="143740000" />
+    <option name="totallyTimeSpent" value="145779000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -601,7 +536,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="1652" y="-11" width="1869" height="1092" extended-state="6" />
+    <frame x="1653" y="-4" width="1867" height="1084" extended-state="6" />
     <layout>
       <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17570499" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -610,7 +545,7 @@
       <window_info id="npm" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23979057" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.19895288" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17382199" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -662,7 +597,9 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="First Version of the app" />
     <MESSAGE value="Navbar HTML container" />
-    <option name="LAST_COMMIT_MESSAGE" value="Navbar HTML container" />
+    <MESSAGE value="Final Version with One Single page enablement and routes" />
+    <MESSAGE value="Tests with Karma/Jasmine for Services.js functions" />
+    <option name="LAST_COMMIT_MESSAGE" value="Tests with Karma/Jasmine for Services.js functions" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -731,6 +668,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
           <caret line="2516" column="0" lean-forward="true" selection-start-line="2516" selection-start-column="0" selection-end-line="2516" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -753,6 +691,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="396">
           <caret line="22" column="40" lean-forward="false" selection-start-line="22" selection-start-column="40" selection-end-line="22" selection-end-column="40" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -760,6 +699,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -767,6 +707,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -774,13 +715,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/mobile.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="4" column="8" lean-forward="false" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="22" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -788,6 +723,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -795,6 +731,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="36">
           <caret line="2" column="8" lean-forward="true" selection-start-line="2" selection-start-column="8" selection-end-line="2" selection-end-column="36" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#h1#0;n#div#0;n#div#0;n#!!top" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -802,35 +742,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="36">
           <caret line="2" column="55" lean-forward="false" selection-start-line="2" selection-start-column="55" selection-end-line="2" selection-end-column="55" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/datamanipulationservices.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-508">
-          <caret line="128" column="45" lean-forward="false" selection-start-line="128" selection-start-column="45" selection-end-line="128" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/controllers.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="116" column="47" lean-forward="true" selection-start-line="116" selection-start-column="47" selection-end-line="116" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/css/desktop.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="477" column="0" lean-forward="false" selection-start-line="477" selection-start-column="0" selection-end-line="477" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/services.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="491">
-          <caret line="150" column="63" lean-forward="false" selection-start-line="150" selection-start-column="63" selection-end-line="150" selection-end-column="63" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#h1#0;n#div#0;n#div#0;n#!!top" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -838,6 +753,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -845,6 +761,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="591">
           <caret line="51" column="0" lean-forward="true" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -852,6 +769,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="561">
           <caret line="84" column="81" lean-forward="false" selection-start-line="84" selection-start-column="81" selection-end-line="84" selection-end-column="81" />
+          <folding>
+            <element signature="n#style#0;n#p#0;n#div#0;n#header#0;n#div#0;n#div#0;n#div#0;n#div#0;n#section#0;n#!!top" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -868,8 +788,8 @@
         <state relative-caret-position="36">
           <caret line="2" column="26" lean-forward="false" selection-start-line="2" selection-start-column="26" selection-end-line="2" selection-end-column="26" />
           <folding>
-            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#1;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="false" />
+            <element signature="n#style#0;n#img#0;n#div#0;n#div#0;n#div#1;n#div#0;n#!!top" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -922,6 +842,30 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/templates/pageFooter.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="3" column="8" lean-forward="false" selection-start-line="3" selection-start-column="8" selection-end-line="3" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/desktop.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="306">
+          <caret line="196" column="4" lean-forward="false" selection-start-line="196" selection-start-column="4" selection-end-line="196" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/mobile.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="740" column="5" lean-forward="true" selection-start-line="740" selection-start-column="5" selection-end-line="740" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/js/app.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="936">
@@ -930,10 +874,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/pageFooter.html">
+    <entry file="file://$PROJECT_DIR$/js/controllers.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="9" column="42" lean-forward="false" selection-start-line="9" selection-start-column="42" selection-end-line="9" selection-end-column="42" />
+        <state relative-caret-position="245">
+          <caret line="104" column="65" lean-forward="false" selection-start-line="104" selection-start-column="36" selection-end-line="104" selection-end-column="65" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/datamanipulationservices.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="245">
+          <caret line="161" column="16" lean-forward="false" selection-start-line="161" selection-start-column="16" selection-end-line="161" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/services.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="452">
+          <caret line="38" column="80" lean-forward="false" selection-start-line="38" selection-start-column="80" selection-end-line="38" selection-end-column="80" />
           <folding />
         </state>
       </provider>
