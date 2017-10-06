@@ -144,6 +144,7 @@
 
 
                 makeBasketIconAppearDisappear: function(action,basket){
+                    console.log(status);
                     if(action === 'disappear') {
 
                         basket = null;
