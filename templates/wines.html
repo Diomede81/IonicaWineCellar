@@ -1,0 +1,59 @@
+
+<section class="wines-page-main-section" >
+
+    <ul class="nav nav-tabs"  >
+        <li id="redWineTabLink" ng-click="changeWineTabColor($event.currentTarget)"><a ui-sref="redWine">Red</a></li>
+        <li id="whiteWineTabLink" ng-click="changeWineTabColor($event.currentTarget)"><a  ui-sref="whiteWine">White</a></li>
+        <li id="sparklingWineTabLink" ng-click="changeWineTabColor($event.currentTarget)"><a  ui-sref="sparklingWine" aria-controls="sparkling" ">Sparkling/Rose</a></li>
+    </ul>
+    <div class="container wines-stock-container">
+        <div class="wines-filter-full-container">
+            <div class="wines-filter-options">
+                <form class="form-group wine-region">
+                    <h2>Region</h2>
+                    <div class="radio">
+                        <label>
+                            <input type="radio" ng-model="region" name="optionsRadios" id="regionAll" value="" checked>
+                            All
+                        </label>
+                        <label>
+                            <input type="radio" ng-model="region" name="optionsRadios" id="regionCalabria" value="calabria">
+                            Calabria
+                        </label>
+                    </div>
+                    <div class="radio">
+                        <label>
+                            <input type="radio" ng-model="region" name="optionsRadios" id="regionSicily" value="sicilia">
+                            Sicily
+                        </label>
+                    </div>
+                    <div class="radio">
+                        <label>
+                            <input type="radio" ng-model ="region" name="optionsRadios" id="regionTuscany" value="toscana">
+                            Tuscany
+                        </label>
+                    </div>
+                    <div class="radio">
+                        <label>
+                            <input type="radio" ng-model ="region" name="optionsRadios" id="regionpuglia" value="puglia">
+                            Puglia
+                        </label>
+                    </div>
+                    <div class="radio">
+                        <label>
+                            <input type="radio" ng-model ="region" name="optionsRadios" id="regionveneto" value="veneto">
+                            Veneto
+                        </label>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <div class="wine-display-container-tabs full-width" ng-controller="basketController" >
+
+                <ui-view></ui-view>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</section>

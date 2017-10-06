@@ -1,46 +1,87 @@
 /**
  * Created by Diomede on 09/05/2017.
  */
-angular.module('ToDoApp', ['ngRoute', 'RouteControllers','UserService','angular-storage','TodoService','TodoDirective']);
+angular.module('Ionica', ['ngRoute', 'RouteControllers','ui.router','angular-storage','ionicaManipulationServices','IonicaDirectives','ionicaControllersServices']);
 
-angular.module('ToDoApp').config(function($locationProvider, $routeProvider){
+angular.module('Ionica').config(function($locationProvider, $routeProvider,$stateProvider){
 
     $locationProvider.html5Mode(true);
 
     $routeProvider.when('/',{
         templateUrl: 'templates/home.html',
-        controller: 'HomeController'
+        controller: 'WinesController'
 
-    })
-        .when('/accounts/register', {
-            templateUrl:'templates/register.html',
-            controller:'RegisterController'
+    });
+
+    $routeProvider.when('/wines', {
+            templateUrl:'templates/wines.html',
+            controller:'WinesController'
 
         })
 
-        .when('/todo', {
+        .when('/ourCustomers', {
 
-            templateUrl: 'templates/todo.html',
-            controller: 'TodoController'
+            templateUrl: 'templates/ourCustomers.html',
+            controller: 'basketController'
     })
 
-        .when('/todo/edit/:id', {
-            templateUrl:'templates/edit-todo.html',
-            controller: 'EditTodoController'
+        .when('/aboutUs', {
+            templateUrl:'templates/aboutUs.html',
+            controller: 'basketController'
 
     })
 
-        .when('/accounts/login',{
+        .when('/contacts',{
 
-        templateUrl: 'templates/login.html',
-        controller: 'LoginController'
-
-    })
-        .when('/accounts/logOut',{
-
-        templateUrl: 'templates/LogOutPage.html',
-        controller: 'LogOutController'
+        templateUrl: 'templates/contacts.html',
+        controller: 'basketController'
 
     })
+        .when('/basket',{
+
+        templateUrl: 'templates/basketPage.html',
+        controller: 'basketController'
+
+    })
+        .when('/confirmationForm',{
+
+            templateUrl: 'templates/order_form.html',
+            controller:'basketController'
+
+        })
+
+        .when('/enquiryForm',{
+
+            templateUrl:'templates/enquiriesForm.html',
+            controller:'basketController'
+
+        });
+
+    var redWineState = {
+
+        name:'redWine',
+        url:'/wines',
+        templateUrl:'templates/redwines.html'
+
+    };
+
+    var whitewineState = {
+
+        name:'whiteWine',
+        url:'/wines',
+        templateUrl:'templates/whitewines.html'
+    };
+
+
+    var sparklingwineState = {
+
+        name:'sparklingWine',
+        url:'/wines',
+        templateUrl:'templates/sparklingwines.html'
+    };
+
+    $stateProvider.state(redWineState);
+    $stateProvider.state(whitewineState);
+    $stateProvider.state(sparklingwineState);
 
 });

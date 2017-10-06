@@ -1,4 +1,158 @@
+ <section class="carousel-section">
+        <div class="container-fluid container-carousel full-width no-padding">
+            <div id="images-carousel" class="carousel slide" data-ride="carousel" data-pause="null">
+                <ol class="carousel-indicators">
+                    <li data-target="#images-carousel" data-slide-to="0" class="active"></li>
+                    <li data-target="#images-carousel" data-slide-to="1"></li>
+                    <li data-target="#images-carousel" data-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner" role="listbox" data-interval="8000" >
+                    <div class="item active ">
+                        <header class="carousel-image-header-container font-color-white">
 
-<div>
-    <h1>{{title}}</h1>
-</div>
+                            <div class="carousel-header-div-container" style="height: 230px;">
+                                <h1>Welcome to Ionica Wine Cellar</h1>
+                                <img src="img/new%20logo.png" width="150" height="150" class="pull-left">
+                                <p class="font-color-white" style="margin-top:0;">Is the UK official distributor of the Lavorata Winery. It was founded in 1958 by Vincenzo Lavorata.</p>
+                            </div>
+                        </header>
+                        <img src="img/carousel1.jpeg" alt="First Image of the carousel" width="100%">
+                    </div>
+
+                    <div class="item">
+                        <header class="carousel-image-header-container font-color-white">
+
+                            <div class="carousel-header-div-container">
+                                <img src="img/new%20logo.png" width="200" height="200" class="pull-left">
+                                <p>The winery is situated in Roccella Jonica a town in the southern part of the Ionian Coast <br>
+                                    and close to the splendid “Stilaro-Allaro” valley in the Province of Reggio Calabria. </p>
+                            </div>
+                        </header>
+                        <img src="img/carousel2.jpg" alt="First Image of the carousel" width="100%">
+                    </div>
+                    <div class="item">
+                        <header class="carousel-image-header-container font-color-white">
+
+                            <div class="carousel-header-div-container">
+                                <img src="img/new%20logo.png" width="200" height="200" class="pull-left">
+                                <p>The family-run business is dedicated to the healthy, clean cultivation of their vines and <br>
+                                    a scrupulous and attentive selection of grapes and must.</p>
+                            </div>
+                        </header>
+                        <img src="img/carousel3.jpg" alt="First Image of the carousel" width="100%">
+                    </div>
+                </div>
+
+                <a class="left carousel-control" href="#images-carousel" role="button" data-slide="prev">
+                    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+                    <span class="sr-only">Previous</span>
+                </a>
+                <a class="right carousel-control" href="#images-carousel" role="button" data-slide="next">
+                    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+                    <span class="sr-only">Next</span>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Wine selection section with three wine containers -->
+    <section class="wines-selector-section container-fluid">
+
+        <div class="container-wines full-width row">
+
+            <h1 class="full-width text-align-center">Visit our Fantastic Wine Selection</h1><br>
+            <div class="container-wines-inner">
+                <div class="wine-box col-md-3 col-sm-12 col-lg-6">
+                    <div class="wine-box-overlay"><img src="img/new%20logo.png" width="200" height="200" style="margin-left:50px;"></div>
+                    <a href="/wines" id="red-display" class="wineSelection font-color-white">
+                        <h2 class="text-align-center">Red Wines</h2>
+                        <p class="text-align-center">Visit our great selection</p></a>
+                    <img src="img/741Bt3.jpg" width="100%" height="auto" alt="Red wine selection">
+                </div>
+                <div class="wine-box  col-md-3 col-sm-12 col-lg-6"   >
+                    <div class="wine-box-overlay"><img src="img/new%20logo.png" width="200" height="200" style="margin-left:50px;"></div>
+                    <a href="/wines"  class="wineSelection" id="white" >
+                        <h2  class="text-align-center">White Wines</h2>
+                        <p class="text-align-center">Visit our great selection</p></a>
+                    <img src="img/whitewine.jpg" width="100%" height="auto" alt="white wine selection">
+
+                </div>
+                <div class="wine-box  col-md-3 col-sm-12 col-lg-6" >
+                    <div class="wine-box-overlay"><img src="img/new%20logo.png" width="200" height="200" style="margin-left:50px;"></div>
+                    <a href="/wines"  id="sparkling" class="wineSelection">
+                        <h2 style="font-size:1.4em; left:30px;"  class="text-align-center">Sparkling & Rose' Wines</h2>
+                        <p class="text-align-center">Visit our great selection</p>
+                        <img src="img/sparkling.jpg" width="100%" height="100%" alt="sparkling wine selection">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- Wine News  Section -->
+
+    <section class="news-and-tips-section container-fluid no-padding">
+        <!-- Wine & Dine Tips Article-->
+
+        <div class="newsSection-container full-width">
+            <div class="tips-and-events-header container-fluid font-color-white text-align-center">
+                <h1>Wine & Food Pairing Tips</h1>
+            </div>
+            <div class="row news-event-tips-row">
+                <div class="col-lg-6">
+                    <div class="tips-and-events-item-container">
+                        <h2 class="text-align-center">Basic Video Tutorial Tips on How to Match Wine and Food</h2><br>
+                        <p class="text-align-center">Syrah? Zinfandel? Pinot Noir? Spicy Food? Cheeses? Barbecue? Which with which? Some basics on how to choose the right wine ...</p>
+                        <video width="70%" height="auto" controls poster="videos/askTonyPoster.JPG">
+                            <source src="videos/Pairing%20Wine%20with%20Food%20-%20Basic%20Video%20Tutorial%20Tips%20on%20How%20to%20Match%20Wine%20and%20Food.mp4">
+                        </video>
+
+                    </div>
+                </div>
+
+
+                <div class="col-lg-6">
+                    <div class="tips-and-events-item-container">
+                        <h2 class="text-align-center">Food and wine pairing tips Sparkling and Snacks</h2><br>
+                        <p class="text-align-center">Check, Please! Bay Area host Leslie Sbrocco shares her wine tip in Season 11 episode 2. What are some food and wine pairing tips? Sparkling and Snacks</p>
+                        <div class="video-overlay"></div>
+                        <video width="70%" height="auto" controls poster="videos/video1Poster.JPG">
+                            <source src="videos/Wine%20Tip_%20Food%20and%20wine%20pairing%20tips%20--%20Sparkling%20and%20Snacks.mp4">
+                        </video>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- Wine Events  Article -->
+            <div class="row news-event-tips-row">
+                <article class="tips-and-events-container">
+                    <div class="tips-and-events-header">
+                        <h1 class="font-color-white text-align-center">Wine Events</h1>
+                    </div>
+
+                    <div class="col-lg-6">
+                        <div class="tips-and-events-item-container">
+                            <h2 class="text-align-center">Organic Wines from Iconic Italian Appellations</h2><br>
+                            <blockquote class="text-align-center">by Petersham Cellar</blockquote><br>
+                            <a href="https://www.eventbrite.co.uk/e/wine-tasting-organic-wines-from-iconic-italian-appellations-tickets-34073974174?aff=es2" target="_blank">
+                                <img src="img/newsandtips/italiaappellation.jpg" width="70%" height="auto" style="float:left" alt="Wine Tasting - Organic Wines from Iconic Italian Appellations">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="col-lg-6">
+                        <div class="tips-and-events-item-container">
+                            <h2 class="text-align-center">Cisco ECN Wine Tasting 2017</h2><br>
+                            <blockquote class="text-align-center">by Cisco's Early in Career Network (ECN)</blockquote><br>
+                            <a href="https://www.eventbrite.co.uk/e/cisco-ecn-wine-tasting-2017-tickets-34276508961?aff=es2" target="_blank">
+                                <img src="img/newsandtips/ciscoevent.jpg" width="70%" height="auto" style="float:left" alt="Wine Tasting - Organic Wines from Iconic Italian Appellations">
+                            </a>
+
+                        </div>
+                    </div>
+                </article>
+
+            </div>
+        </div>
+    </section>

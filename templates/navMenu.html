@@ -1,0 +1,23 @@
+
+<nav class="navbar navbar-inverse navbar-fixed-top main-navbar" id="main-website-navbar">
+    <div class="container-fluid"  >
+        <div class="navbar-header">
+
+            <span class="sr-only">Ionica Wines</span>
+            <h3 class="navbar-brand font-color-white" >Ionica Wine Cellars</h3>
+            <img src="../img/new%20logo.png" width="50" height="50">
+            <span class="pull-right fa fa-bars fa-4x" onclick="openMobileMenu()"></span>
+        </div>
+        <div class="anchors-container" id="anchors-container" ng-controller="basketController as basketcontroller">
+            <ul class="nav navbar-nav pull-right font-color-white">
+                <li ><a href="/" id="menuItem" menu-animation>Home<hr class="menulistBar"></a></li>
+
+                <li><a href="/wines" menu-animation>Wines<hr class="menulistBar"></a></li>
+                <li><a href="/ourCustomers" menu-animation>Our Customers<hr class="menulistBar"></a></li>
+                <li><a href="/aboutUs" menu-animation>About US<hr class="menulistBar"></a></li>
+                <li><a href="/contacts" menu-animation>Contacs<hr class="menulistBar"></a></li>
+                <li  id="navbar-basket-icon"><a ng-hide="!basket" href="/basket" id="basket-menu-icon"><img src="/img/icons/4c76d1157548c6ab914e24645c0efb85-wine-bottles-basket-icon-by-vexels.png" width="40px" height="40px"></a></li>
+            </ul>
+        </div>
+    </div>
+</nav>

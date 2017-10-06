@@ -1,0 +1,345 @@
+[
+  {
+    "id": 0,
+    "name": "Anfisya Bianco IGT",
+    "price": 5.50,
+    "description": "Clean straw- yellow wine, smooth, elegant and fruity with a refreshing finish.",
+    "canPurchase": "true",
+    "ABV" : "12%",
+    "type": "white",
+    "region": "Calabria",
+    "totalBasket" : 0,
+    "stock" : 1,
+    "images": [
+      {
+        "full": "../img/wines/anfisyabianco.png"
+      }
+    ]
+  },
+  {
+    "id": 1,
+    "name": "Pinot Grigio IGT",
+    "price": 6.40,
+    "description": "Pale straw yellow in colour, dry, smooth, harmonious and fresh with a delicate fruity scent.",
+    "canPurchase": "true",
+    "ABV" : "12%",
+    "type": "white",
+    "region": "Sicilia",
+    "totalBasket" : 0,
+    "stock" : 3,
+    "images": [
+      {
+        "full":  "../img/wines/pinotgrigio.png"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Inzolia IGT",
+    "price": 7.80,
+    "description": "Intense and elegant aromas range from fruity to floral and more complex structure. Mouth filling flavor, fresh with a lingering finish.",
+    "canPurchase": "true",
+    "ABV" : "13%",
+    "type": "white",
+    "region": "Sicilia",
+    "totalBasket" : 0,
+    "stock" : 4,
+    "images": [
+      {
+        "full": "../img/wines/inzolia.png"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Sauvignon Blanc IGT",
+    "price": 7.80,
+    "description": "Fruity and refreshing with floral notes, citrus and green apple flavors, balanced by a hint of ripe tropical fruit.",
+    "canPurchase": "true",
+    "ABV" : "13%",
+    "type": "white",
+    "region": "Sicilia",
+    "totalBasket" : 0,
+    "stock" : 3,
+    "images": [
+      {
+        "full":  "../img/wines/sauvignonblanc.png"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Chardonnay IGT",
+    "price": 7.80,
+    "description": "Pale yellow with green reflections, delicate fruity bouquet, dry and harmonious with a savoury finish.",
+    "canPurchase": "true",
+    "ABV" : "13%",
+    "type": "white",
+    "region": "Sicilia",
+    "totalBasket" : 0,
+    "stock" : 3,
+    "images": [
+      {
+        "full": "../img/wines/chardonnay.png"
+      }
+    ]
+  },
+{
+    "id": 5,
+    "name": "Greco Bianco IGT",
+    "price": 9.60,
+    "description": "Pale gold in colour, fruity bouquet, with hints of white flowers and apples, dry and harmonious, with a persistent lengthy finish.",
+    "canPurchase": "true",
+    "ABV" : "13%",
+    "type": "white",
+    "region": "Calabria",
+  "totalBasket" : 0,
+  "stock" : 1,
+    "images": [
+      {
+        "full": "../img/wines/greco.png"
+      }
+    ]
+  },
+
+  {
+    "id": 6,
+    "name": "Anfisya Rosso IGT",
+    "price": 5.50,
+    "description": "Ruby red colour, typical wine bouquet, strong character and pleasant taste.",
+    "canPurchase": "true",
+    "ABV" : "12%",
+    "type": "red",
+    "region": "Calabria",
+    "totalBasket" : 0,
+    "stock" : 8,
+    "images": [
+      {
+        "full":  "../img/wines/anfisyarosso.png"
+      }
+    ]
+  },
+  {
+    "id": 7,
+    "name": "Merlot IGT",
+    "price": 6.50,
+    "description": "Intense ruby red color, red fruits and fresh cherries on the nose. Pleasant, smooth and elegant.",
+    "canPurchase": "true",
+    "ABV" : "13%",
+    "type": "red",
+    "region": "Calabria",
+    "totalBasket" : 0,
+    "stock" : 3,
+    "images": [
+      {
+        "full": "../img/wines/merlot.png"
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "name": "Nero d’Avola IGT",
+    "price": 7.80,
+    "description": "Deep red colour, strong character, full bodied with notes of red fruits, smooth and rounded velvety finish.",
+    "canPurchase": "true",
+    "ABV" : "14%",
+    "type": "red",
+    "region": "Sicilia",
+    "totalBasket" : 0,
+    "stock" : 5,
+    "images": [
+      {
+        "full": "../img/wines/nerodavola.png"
+      }
+    ]
+  },
+  {
+    "id": 9,
+    "name": "Cabernet Sauvignon IGT",
+    "price": 7.80,
+    "description": "Full-flavored and rich in extract, the sensations on the palate echo the fruity and floral notes, with a light spicy finish.",
+    "canPurchase": "true",
+    "ABV" : "14%",
+    "type": "red",
+    "region": "Calabria",
+    "totalBasket" : 0,
+    "stock" : 2,
+    "images": [
+      {
+        "full": "../img/wines/cab.png"
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "name": "Primitivo del Salento IGT",
+    "price": 8.50,
+    "description": "Ruby red in colour, characteristic aroma of grapes, ripe cherries, blackberries and blueberries, round, cheerful and expressive.",
+    "canPurchase": "true",
+    "ABV" : "14%",
+    "type": "red",
+    "region": "Puglia",
+    "totalBasket" : 0,
+    "stock" : 7,
+    "images": [
+      {
+        "full": "../img/wines/generic.png"
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "name": "Montepulciano d’Abruzzo DOC",
+    "price": 8.80,
+    "description": "Deep ruby red with sparkling reflections. A warm, rich, harmonious taste, persistent and distinguished.",
+    "canPurchase": "true",
+    "ABV" : "14%",
+    "type": "red",
+    "region": "Abruzzo",
+    "totalBasket" : 0,
+    "stock" : 3,
+    "images": [
+      {
+        "full": "../img/wines/montep.png"
+      }
+    ]
+  },
+  {
+    "id": 12,
+    "name": "Greco Nero IGT",
+    "price": 12.80,
+    "description": "Intense red colour with purple reflections, elegant bouquet and delicate fragrance of cinnamon. Rich and full bodied with great balance and structure.",
+    "canPurchase": "true",
+    "ABV" : "14%",
+    "type": "red",
+    "region": "Calabria",
+    "totalBasket" : 0,
+    "stock" : 9,
+    "images": [
+      {
+        "full": "../img/wines/greconero.png"
+      }
+    ]
+  },
+  {
+    "id": 13,
+    "name": "Bivongi Rosso Riserva DOC",
+    "price": 12.80,
+    "description": "Deep ruby red colour, velvety with high aromatic complexity, full bodied and well balanced. Rich and warm on the palate.",
+    "canPurchase": "true",
+    "ABV" : "14%",
+    "type": "red",
+    "region": "Calabria",
+    "totalBasket" : 0,
+    "stock" : 11,
+    "images": [
+      {
+        "full": "../img/wines/bivongi.png"
+      }
+    ]
+  },
+  {
+    "id": 14,
+    "name": "Chianti Riserva DOCG",
+    "price": 10.20,
+    "description": "Deep ruby red in color with aromas of violets, wild cherries and subtle spice notes. On the palate the wine is full bodied and balanced with soft wild berry characters and a hint of vanilla and cinnamon, coupled with a long finish.",
+    "canPurchase": "true",
+    "ABV" : "13.5%",
+    "type": "red",
+    "region": "Toscana",
+    "totalBasket" : 0,
+    "stock" : 4,
+    "images": [
+      {
+        "full": "../img/wines/chiantiriserva.png"
+      }
+    ]
+  },
+  {
+    "id": 15,
+    "name": "Vino Nobile di Montepulciano DOCG",
+    "price": 13.50,
+    "description": "Medium bodied, brilliant color with fruit flavors. Well balanced. Deep ruby red color with a balanced supple finish with soft tannins and rich flavor.",
+    "canPurchase": "true",
+    "ABV" : "13.5%",
+    "type": "red",
+    "region": "Toscana",
+    "totalBasket" : 0,
+    "stock" : 8,
+    "images": [
+      {
+        "full": "../img/wines/gavioli.png"
+      }
+    ]
+  },
+  {
+    "id": 16,
+    "name": "Amarone Della Valpolicella DOCG",
+    "price": 22.80,
+    "description": "Intense garnet red in color, this wine is rich, full bodied and firm. Its perfume is clear and fresh, its taste is velvety and lingering. Well structured and beautifully balanced",
+    "canPurchase": "true",
+    "ABV" : "15%",
+    "type": "red",
+    "region": "Veneto",
+    "totalBasket" : 0,
+    "stock" : 3,
+    "images": [
+      {
+        "full": "../img/wines/amar.png"
+      }
+    ]
+  },
+  {
+    "id": 17,
+    "name": "Prosecco DOC",
+    "price": 8.30,
+    "description": "Aromatic sparkling wine, fruity with hints of apples and pears, supported by notes of citrus and persistent in the glass.",
+    "canPurchase": "true",
+    "ABV": "11.5%",
+    "type": "sparkling",
+    "region": "Veneto",
+    "totalBasket" : 0,
+    "stock" : 3,
+    "images": [
+      {
+        "full": "../img/wines/prosecco.png"
+      }
+    ]
+  },
+  {
+    "id": 18,
+    "name": "Anfisya Rosè IGT",
+    "price": 5.50,
+    "description": "Rich and fruity, dry with delicate notes of roses on the nose.",
+    "canPurchase": "true",
+    "ABV" : "12%",
+    "type": "sparkling",
+    "region": "Calabria",
+    "totalBasket" : 0,
+    "stock" : 3,
+    "images": [
+      {
+        "full": "../img/wines/anfisyarosato.png"
+      }
+        ]
+
+    },
+  {
+    "id": 19,
+    "name": "Pinot Grigio Blush IGT",
+    "price": 6.40,
+    "description": "A dry, fresh and fruity rosè with delicate aromas of red berries. Crisp and lively on the palate.",
+    "canPurchase": "true",
+    "ABV": "12%",
+    "type": "sparkling",
+    "region": "Sicilia",
+    "totalBasket" : 0,
+    "stock" : 3,
+    "images": [
+      {
+        "full": "../img/wines/pinotblush.png"
+      }
+    ]
+  }
+    ]
+

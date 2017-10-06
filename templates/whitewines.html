@@ -1,0 +1,27 @@
+<div class="tab-content" style="background-image: url('../img/most beautiful wine high resolution wallpaper.jpg');background-size: cover;">
+<div class="header-paragraph-container">
+    <h1 class="full-width" style="color:rgb(34,34,34);">Our White Wines</h1>
+</div>
+<div class="row wine-list-container">
+    <div class="col-lg-11 col-sm-12 wine-display-wines-page"  ng-repeat="wine in wines | filter:{type: 'white', region:region}">
+        <div class="wine-display-inner-container">
+            <div class="wine-display-inner-container-overlay full-width">
+                <a href="javascript:return none" onclick="CloseWineOverlayDescription(this.parentNode)"><span class="fa fa-window-close-o fa-2x pull-right"></span></a>
+                <p>{{wine.description}}</p>
+                <p><strong>ABV:</strong> {{wine.ABV}}</p>
+            </div>
+            <img ng-src="{{wine.images[0].full}}" alt="{{wine.name}} bottle image" width="45px" height="180px" style="float: left;">
+            <div class="wine-display-inner-container-info">
+                <h1>{{wine.name}}</h1><br>
+                <p><strong>Description:</strong> <a href="javascript:return none" onclick="ActivateWineOverlayDescription(this.parentNode.parentNode)">Click Here for more information</a></p>
+                <p>Region: {{wine.region}}</p>
+                <button class="btn btn-default pull-right" ng-click="addTobasket(this,$event)">Buy</button>
+                <label class="pull-right">Quantity
+                    <input type="number" size="1" min="1" max="9" value="1"></label>
+                <p>Price: {{wine.price | currency : '£'}}</p>
+                <span class="pull-right wine-add-to-basket-message">Wine Added</span>
+            </div>
+        </div>
+    </div>
+</div>
+</div>

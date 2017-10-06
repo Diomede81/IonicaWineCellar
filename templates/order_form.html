@@ -1,0 +1,78 @@
+<section class="info-section" ng-controller="customerQueriesController as customerqueries">
+    <div class="container enquiry-form-container">
+        <div class="row">
+            <div class="col-lg-1">
+            </div>
+            <div class="col-lg-10 col-xs-12">
+                <form  id="enquiry-form" name="enquiryForm" novalidate data-ng-submit="submitForm()" ng-controller="basketController" >
+                    <h1>Order Confirmation</h1>
+                    <label>Name:<br>
+                        <input type="text"  maxlength="50" data-ng-model="name" required="" name="name"><br>
+                        <span ng-show="enquiryForm.name.$invalid &&enquiryForm.name.$touched">Your Name is Required</span>
+                    </label><br>
+                    <label>Surname:<br>
+                        <input type="text" required maxlength="50" data-ng-model="surname" name="surname"><br>
+                        <span ng-show="enquiryForm.surname.$invalid &&enquiryForm.surname.$touched">Your Surname is Required</span>
+                    </label><br>
+                    <label>Email:<br>
+                        <input type="email" ng-pattern="emailRegex" data-ng-model="email" data-ng-model-options="{ updateOn: 'blur'}" name="email" required><br>
+                        <span ng-show="enquiryForm.email.$error.pattern">Please insert a valid Email address</span>
+                        <span ng-show="enquiryForm.email.$invalid && enquiryForm.email.$touched && enquiryForm.email.$pristine">Your Email Address Number is required</span>
+                    </label><br>
+                    <label>Telephone<br>
+                        <input type="tel"  maxlength="20" data-ng-model="telephone" required ng-pattern="telRegex" name="tel" data-ng-model-options="{ updateOn: 'blur'}" placeholder="0044 7xxxxxxxx"><br>
+                        <span ng-show="enquiryForm.tel.$error.pattern">Please insert a valid Telephone number</span>
+                        <span ng-show="enquiryForm.tel.$invalid && enquiryForm.tel.$touched && enquiryForm.tel.$pristine">Your Telephone Number is required</span>
+                    </label><br>
+                    <label>PostCode<br>
+                        <input type="text" name="postcodeInput" data-ng-model="postcode" ng-pattern="postCode" required><br>
+                        <a ng-click="getAddressFunction()" class="btn btn-default" id="check-postcode">Check Postcode</a>
+                        <span ng-show="enquiryForm.postcodeInput.$error.pattern">Please insert a valid Postcode</span>
+                        <span style="display:none" id="postcodeError"></span>
+                        <span style="display:none; color:green" id="postcodeSuccess"></span>
+                        <span ng-show="enquiryForm.postcodeInput.$invalid && enquiryForm.postcodeInput.$touched && enquiryForm.postcodeInput.$pristine">Your Postcode Number is required</span>
+                    </label><br>
+                    <label>Select Postcode <br>
+                        <Select id="postcodeSelect" name="postcodeField" data-ng-model="postcodeField">
+
+                        </Select>
+                        <a ng-click="confirmAddressFunction()" class="btn btn-default">Confirm Address</a>
+                    </label>
+                    <div id="addressContainer">
+                        <label>Address Line 1
+                            <input type="text" name="address-line1" id="addressLine1">
+                        </label>
+                        <label>Address Line 2
+                            <input type="text" name="address-line2" id="addressLine2">
+                        </label>
+                        <label>Town
+                            <input type="text" name="town" required>
+                        </label><label>County
+                            <input type="text" name="county">
+                        </label>
+                    </div>
+
+                    <p>Further Information</p>
+                    <div id="enquiry-form-message-input">
+                        <textarea id="form-message-field" maxlength="300" name="message" data-ng-model="message" title="message"></textarea>
+                    </div>
+                    <label>How did you hear about us?
+                        <select name="how-did-you-hear" form="enquiry-form">
+                            <option></option>
+                            <option>Google</option>
+                            <option>Business Card</option>
+                            <option>Word of Mouth</option>
+                        </select>
+                    </label><br>
+                    <label id="newsNotificationCheckbox"><strong style="font-size:1.3em;margin-bottom:10px;">Notification Preferences</strong><br>
+                        I would like to hear all Ionica Wine Cellar news about new products, promotions and store events
+                        <input type="checkbox" name="receiveNewsletter" value="newsletter" id="checkboxes">
+                    </label><br>
+                    <button type="submit" class="btn btn-default" data-ng-disabled="enquiryForm.$invalid">Submit</button>
+                </form>
+            </div>
+            <div class="col-lg-1">
+            </div>
+        </div>
+    </div>
+</section>

@@ -1,0 +1,756 @@
+@media screen and (min-width:300px) {
+
+    body{
+        font-family: 'Marck Script', sans-serif;
+        padding-top:0;
+    }
+
+    .row, .container, .container-fluid, .col-lg-6 {
+        padding: 0;
+        margin: 0;
+    }
+
+    ul.navbar-nav:not(.basket-price-quantity) {
+        display: none;
+        margin: 0 30% 0 30%;
+    }
+
+    #main-website-navbar div.navbar-header .navbar-brand {
+        font-size: 2.2em;
+        margin-left: 10px;
+
+    }
+
+    .navbar div.anchors-container ul li hr.menulistBar{
+        margin:2px 0 0 0;
+        display:none;
+    }
+
+    ul.nav.navbar-nav.pull-right li a {
+        font-size: 2em;
+    }
+
+    ul.nav.navbar-nav.pull-right {
+        width: 100%;
+        margin: 0;
+        padding: 10px;
+    }
+
+    #main-website-navbar span.fa.fa-bars.fa-4x {
+        display: block;
+        color: white;
+
+        margin-right: 10px;
+        float: right;
+    }
+
+    .navbar-header:not(.basket-navbar-header) {
+        margin: 0;
+        padding: 10px;
+    }
+
+    #main-website-navbar {
+        display: inline-block;
+    }
+
+    .carousel-section {
+        display: none;
+    }
+
+    .container-wines {
+        background-image: url("../img/s2016-vineyards-dusk03c.jpg");
+        -webkit-background-size: cover;
+        background-size: cover;
+        background-position: center;
+        background-attachment: fixed;
+        height: auto;
+        padding-top: 80px;
+    }
+
+    .wineSelection {
+        text-shadow: 2px 2px black;
+    }
+
+    .wine-box {
+        overflow: hidden;
+
+        -webkit-border-radius: 5% 0 5% 0;
+        -moz-border-radius: 5% 0 5% 0;
+        border-radius: 5% 0 5% 0;
+        margin: 0 auto 50px auto;
+        padding: 0;
+        max-height: 200px;
+    }
+
+    .container-wines h1 {
+        font-size: 2.2em;
+        text-align: center;
+        color: white;
+        font-family: 'Marck Script', sans-serif;
+    }
+
+    .wine-box-overlay {
+        background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, rgba(255, 222, 147, .85)), color-stop(1, #ffd46d));
+        background-image: -moz-linear-gradient(top, rgba(255, 222, 147, .85) 0%, #ffd46d 100%);
+        background-image: -ms-linear-gradient(top, rgba(255, 222, 147, .85) 0%, #ffd46d 100%);
+        background-image: -o-linear-gradient(top, rgba(255, 222, 147, .85) 0%, #ffd46d 100%);
+        width: 100%;
+        height: 100%;
+        max-height: 400px;
+        opacity: 0.5;
+        position: absolute;
+    }
+
+    .wine-box h2 {
+        width: 100%;
+        position: absolute;
+        z-index: 100;
+        font-size: 3em;
+        font-weight: bold;
+        color: white;
+        top: 40%;
+        text-align: center;
+    }
+
+    .wine-box p {
+        display: none;
+    }
+
+    /*News and Tips Section Selectors*/
+    .tips-and-events-header {
+        background-color: rgb(100, 34, 34);
+        padding: 20px;
+    }
+
+    .tips-and-events-header h1 {
+        font-size: 2.5em;
+        color: white;
+        text-align: center;
+
+    }
+
+    .newsSection-container {
+        height: auto;
+        background-size: cover;
+        background: url('../img/The-Healthy-Wine-List-Picture.jpg') fixed center;
+    }
+
+    .news-event-tips-row {
+        background-color: rgba(255, 255, 255, 0.7);
+    }
+
+    .tips-and-events-item-container > p, blockquote {
+        display: none
+    }
+
+    .tips-and-events-item-container h2 {
+        font-size: 1em;
+        font-weight: bold;
+        color: black;
+        text-align: center;
+    }
+
+    .tips-and-events-item-container {
+        height: auto;
+        width: 90%;
+        margin: 20px auto;
+        padding: 20px 0;
+    }
+
+    .tips-and-events-item-container video {
+
+        margin: 10px 15% 0 15%;
+    }
+
+    .tips-and-events-item-container a img {
+        margin: 0 15% 40px 15%;
+        max-width: 600px;
+    }
+
+    /* Wines.html Page Selectors */
+    .wines-page-main-section {
+        background-image: url('../img/bashcorpo_com__paper1.jpg');
+        font-family: 'Playball', sans-serif;
+        padding-bottom: 50px;
+    }
+
+    div.wine-display-inner-container {
+        overflow: hidden;
+        padding: 0 20px 0 20px;
+    }
+
+    div.wine-display-inner-container p {
+        margin: 5px 10px 12px 50px;
+        text-align: justify;
+        font-weight: 500;
+    }
+
+    div.wine-display-inner-container img {
+        min-height: 45px;
+        height: auto;
+        margin-top: 10px;
+    }
+
+    .wine-display-inner-container-info strong {
+        margin-top: 0;
+        font-size: 1.2em;
+        font-weight: bolder;
+    }
+
+    div.wine-display-inner-container button {
+        background-color: navajowhite;
+        margin-left: 10px;
+        height: 25px;
+        padding: 2px 5px 5px 5px;
+    }
+
+    .wine-display-inner-container h1 {
+        font-weight: bold;
+        color: black;
+        font-size: 1.5em;
+        margin-left: 50px;
+        margin-top: 10px;
+    }
+
+    .wine-display-inner-container-info {
+        padding-top: 10px;
+        padding-left: 20px;
+    }
+
+    .wine-display-inner-container-info p {
+        width: 95%;
+    }
+
+    .wine-display-inner-container-info span.wine-add-to-basket-message {
+        color: red;
+        font-size: 1.2em;
+        margin-right: 20px;
+        margin-top: 10px;
+        display: none;
+    }
+
+    .wine-display-inner-container-overlay {
+        height: 110%;
+        background-image: linear-gradient(top, rgba(255, 222, 147, .85) 0%, #ffd46d 100%);
+        background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, rgba(255, 222, 147, .85)), color-stop(1, #ffd46d));
+        background-image: -moz-linear-gradient(top, rgba(255, 222, 147, .85) 0%, #ffd46d 100%);
+        background-image: -ms-linear-gradient(top, rgba(255, 222, 147, .85) 0%, #ffd46d 100%);
+        background-image: -o-linear-gradient(top, rgba(255, 222, 147, .85) 0%, #ffd46d 100%);
+        position: absolute;
+        left: 100%;
+        opacity: 1;
+    }
+
+    .wine-display-inner-container-overlay p {
+        color: black;
+        font-size: 1.4em;
+        padding-top: 30px;
+        width: 90%;
+    }
+
+    div.wine-display-container > h1 {
+        text-align: center;
+        margin-top: 50px;
+    }
+
+    /* wines.html page - nav-tab selectors */
+    .nav.nav-tabs {
+        margin-top: 80px;
+        border: solid 1px white;
+        background-color: rgb(100, 34, 34);
+    }
+
+    .nav.nav-tabs a {
+        color: black;
+        font-weight: bold;
+        font-size: 2.5em;
+    }
+
+    #red .header-paragraph-container h1 {
+        color: white;
+        font-size: 3em;
+    }
+
+    #white .header-paragraph-container h1 {
+        font-size: 3em;
+        color: #333;
+    }
+
+    #sparkling .header-paragraph-container h2 {
+        font-size: 2.5em;
+        margin-bottom: 20px;
+    }
+
+    .wine-list-container {
+        padding-bottom: 30px;
+    }
+
+    /* wines.html - wines filter sidebar selectors */
+    form.wine-region h2 {
+        font-size: 1.8em;
+    }
+
+    form.wine-region div label {
+        font-size: 1.4em;
+    }
+
+    .wines-stock-container {
+        height: auto;
+        display: flex;
+    }
+
+    #red {
+        background-image: url("../img/redwinesbackground.jpg");
+        background-size: cover;
+        color: white;
+    }
+
+    #white {
+        background-image: url("../img/most beautiful wine high resolution wallpaper.jpg");
+        background-size: cover;
+
+    }
+
+    #sparkling {
+        background-image: url("../img/sparkling.jpg");
+        background-size: cover;
+    }
+
+    .tab-pane {
+        border: solid 1px white;
+    }
+
+    .wines-filter-options .form-group {
+        font-weight: bold;
+        color: black;
+        margin-top: 100px;
+        margin-left: 20px;
+    }
+
+    .wines-filter-full-container {
+        border-right: solid 1px white;
+        border-left: solid 1px white;
+        background-color: rgb(100, 34, 34);
+        padding-right: 50px;
+        display: none;
+    }
+
+    /* wines.html - wine-display container and items selectors */
+    div.wines-stock-container {
+        width: 100%;
+    }
+
+    .wine-display-container-tabs {
+        height: auto;
+        width: 100%;
+    }
+
+    div.wine-display-container > div.tab-content > div.tab-pane > .row {
+        margin-top: 50px;
+    }
+
+    .wine-display-wines-page {
+        width: 90%;
+        height: 200px;
+        max-height: 400px;
+        color: rgb(0, 0, 0);
+        background-color: rgba(255, 255, 255, 0.5);
+        font-weight: 900;
+        margin: 0 4%;
+        border-bottom: rgba(0, 0, 0, 0.8) solid 1px;
+        overflow: hidden;
+    }
+
+    .header-paragraph-container {
+        padding: 10px 0 10px 20px;
+    }
+
+    /* Footer Selectors */
+    footer {
+        background-color: rgb(100, 34, 34);
+        border-top: solid 1px white;
+        font-family: 'Marck Script', sans-serif;
+    }
+
+    .footer-row {
+        margin-top: 30px;
+        padding: 30px;
+    }
+
+    div.footer-row div.col-xs-12 {
+        text-align: center;
+        margin-bottom: 30px;
+        color: white;
+    }
+
+    div.footer-row div.col-sm-6 {
+        display: none;
+    }
+
+    .footer-row h2 {
+        font-size: 2.5em;
+    }
+
+    .footer-row ul li {
+        margin: 20px;
+    }
+
+    .footer-row ul li a {
+        font-size: 1.5em;
+    }
+
+    .footer-row ul li a:hover {
+        color: black;
+    }
+
+    .footer-image {
+        position: relative;
+        height: auto;
+    }
+
+    .footer-col-text-container {
+        padding-top: 30px;
+        padding-left: 20px;
+        line-height: 1.5em;
+        font-size: 1.2em;
+    }
+
+    .footer-col-text-container span {
+        margin: 0 10px;
+    }
+
+    /* OurCustomers.html page selectors */
+    .customer-page-comment-h2 {
+        font-size: 1.6em;
+    }
+
+    div.carousel-header-div-container p.customer-page-comment-p {
+        padding-top: 20px;
+        font-size: 1.3em;
+    }
+
+    .customer-page-comments-container {
+
+        padding-top: 50px;
+    }
+
+    /* AboutUs.html page selectors */
+    .info-section {
+        background-image: url('../img/bashcorpo_com__paper1.jpg');
+        padding: 10px 0 10px 0;
+        color: black;
+        font-family: 'Marck Script', sans-serif;
+    !important;
+    }
+
+    .info-section p {
+        font-size: 2em;
+        line-height: 1.1em;
+    }
+
+    .about-us-container {
+        margin-top: 100px;
+        margin-bottom: 50px;
+    }
+
+    .about-us-container header.about-us-header h1 {
+        color: black;
+        font-size: 2.5em;
+        padding-left: 20px;
+        vertical-align: bottom;
+        margin-top: 15px;
+    }
+
+    div.row > div.about-us-info {
+        padding-top: 20px;
+    }
+
+    .about-us-info-first p, .about-us-info p {
+        padding: 10px;
+    }
+
+    .about-us-header {
+        display: inline-flex;
+        padding-left: 20px;
+    }
+
+    /* Contacts.html page */
+    .contact-info {
+        color: rgb(0, 0, 0);
+        line-height: 2.2em;
+        font-size: 1.2em;
+        text-align: center;
+        padding: 20px 0 20px 0;
+    }
+
+    .contact-info h1 {
+        color: rgb(0, 0, 0);
+        font-size: 3em;
+    }
+
+    .contact-info ul a {
+        color: black;
+    }
+
+    .contact-info ul a:hover li {
+        color: white;
+    }
+
+    .contact-info ul a:hover li span.fa {
+        color: white;
+    }
+
+    #map {
+        margin:0 auto 0 auto;
+        width: 650px;
+        height: 350px;
+    }
+
+    /*basketPage.html Selectors*/
+    #basket-main-page-section {
+
+        background-image: url('../img/bashcorpo_com__paper1.jpg');
+        padding: 30px;
+    }
+
+    #basket-container {
+        background: rgb(240, 240, 240);
+
+    }
+
+    .basket-wine-display-row {
+        border-bottom: black 1px solid;
+        padding: 0 15px 10px 0;
+    }
+
+    .wine-basket-button-container {
+        margin-top: 20px;
+        margin-bottom: 50px;
+        height: 50px;
+    }
+
+    .wine-basket-button-container input {
+        margin-top: 20px;
+    }
+
+    .basket-container {
+        margin-top: 50px;
+        background: rgb(240, 240, 240);
+    }
+
+    div.basket-container > .navbar {
+        margin-bottom: 0;
+        background-color: rgb(240, 240, 240);
+        color: rgb(0, 0, 0);
+        border: none;
+        border-bottom: 0.5px solid black;
+    }
+
+    div.basket-container > div.navbar.navbar-inverse > ul {
+        margin-top: 0;
+        font-size: 1.3em;
+        font-weight: bold;
+        width:auto;
+    }
+
+    div.basket-container > div.navbar.navbar-inverse > ul > li {
+        padding-left:10px;
+
+    }
+
+    div.basket-container > div.navbar.navbar-inverse > div.navbar-header > span {
+        font-size:2.5em;
+        color:black;
+        font-family: 'Marck Script', sans-serif;
+    }
+
+    .basket-navbar{
+        padding:15px;
+        display:flex;
+    }
+
+
+    /*Enquiry Form PAge*/
+    .enquiry-form-container {
+        margin-top: 80px;
+        margin-bottom: 50px;
+    }
+
+    #enquiry-form label {
+        width: 100%;
+        font-size: 1.3em;
+        color: black;
+    }
+
+    #enquiry-form #newsNotificationCheckbox {
+        font-size: 1em;
+        color: black;
+        margin: 10px 0 0 0;
+        width: 80%;
+    }
+
+    #enquiry-form-message-input {
+        width: 100%;
+        display: inline-flex;
+    }
+
+    #enquiry-form label span, #enquiry-form #enquiry-form-message-input span {
+        color: red;
+        margin-bottom: 20px;
+    }
+
+    #enquiry-form textarea {
+        background: rgba(255, 255, 255, 0.5);
+        width: 60%;
+        resize: none;
+        margin-bottom: 20px;
+        font-size: 1.3em;
+        -webkit-transition: width 0.4s ease-in-out;
+        transition: width 0.4s ease-in-out;
+    }
+
+    #enquiry-form textarea:focus {
+        outline: none;
+        width: 70%;
+    }
+
+    #enquiry-form input {
+        width: 60%;
+        margin-bottom: 20px;
+        -webkit-transition: width 0.4s ease-in-out;
+        transition: width 0.4s ease-in-out;
+        padding: 0 5px;
+        margin-top: 5px;
+    }
+
+    #enquiry-form select {
+        margin-bottom: 20px;
+        margin-top: 3px;
+    }
+
+    #enquiry-form input {
+
+        border: none;
+        border-bottom: 1px solid black;
+        background: rgba(255, 255, 255, 0.5);
+    }
+
+    .error {
+        border: 1px red solid;
+    }
+
+    #enquiry-form .ng-invalid.ng-touched {
+        box-shadow: 1px 1px 30px rgb(100, 34, 34);
+    }
+
+    #enquiry-form .ng-valid {
+        box-shadow: 0 0 30px green;
+    }
+
+    #form-message-field {
+        height: 60px;
+    }
+
+    form label input#checkboxes {
+        width: 50px;
+    }
+
+    #enquiry-form {
+        background-color: rgba(255, 255, 255, 0.5);
+        padding: 20px;
+    }
+
+    #enquiry-form h1 {
+        font-size: 2.2em;
+        color: black;
+        margin-bottom: 20px;
+    }
+
+    #enquiry-form-message-input p:last-child {
+        margin: 20px 0 0 10px;
+        height: 80px;
+    }
+
+    /*order form Page */
+    #enquiry-form div.row div.col-lg-4 input {
+        width: 75%;
+    }
+
+    #enquiry-form div.row div.col-lg-4 {
+        padding: 0;
+    }
+
+    #check-postcode {
+
+        top: 20px;
+        right: 0;
+        left: 0;
+        width: 150px;
+    }
+
+    #postcodeSelect {
+        width: 40%;
+    }
+
+    #enquiry-form > label:nth-child(11) > a {
+        margin-bottom: 10px
+    }
+
+    #enquiry-form {
+        background-color: rgba(255, 255, 255, 0.5);
+        padding: 20px;
+        font-family: 'Dosis', sans-serif;
+    }
+
+    #addressContainer {
+        display: none;
+    }
+
+    #addressLine1, #addressLine2 {
+        width: 30%;
+    }
+
+    .wine-stock-error-message {
+
+        position: absolute;
+        font-size: 0.8em;
+        margin-top: 20px;
+        color: red;
+        font-weight: bold;
+    }
+
+    .carousel-image-header-container {
+        font-family: 'Marck Script', sans-serif;
+        width: 80%;
+        height: auto;
+        position: absolute;
+        margin: 0 0 0 10%;
+        opacity: 1;
+        background-color: rgba(0, 0, 0, 0.5);
+
+    }
+
+    .carousel-inner .item.active > header.carousel-image-header-container p {
+        opacity: 1;
+        transition-delay: 1s;
+        transition: opacity 1s;
+        -webkit-transition: opacity 1s;
+        transition-timing-function: ease-in;
+        color: white;
+        padding: 20px;
+    }
+
+    div.carousel-header-div-container img {
+        display: none;
+    }
+
+    div.carousel-header-div-container .customer-page-comment-h2 {
+        color: white;
+        padding: 10px;
+    }
+
+    div.feedback-carousel {
+        margin-top: 80px;
+    }
+
+}
