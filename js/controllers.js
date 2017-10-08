@@ -3,28 +3,36 @@
     angular.module('RouteControllers',['angular-storage','ngRoute'])
 
 
-.controller('WinesController', function($scope,$http,BasketService,GetDataService,DomManipulation) {
+        .controller('WinesController', function($scope,$http,BasketService,GetDataService,DomManipulation) {
 
-        /* The below get the Wines Json file and assign the data within the returned object to $scope.wines */
-
-
-        GetDataService.getHTTPData('wines.json').then(function(data){
-
-            $scope.wines = data.data;
-
-        });
-
-        $scope.changeWineTabColor = function(element){
-
-            DomManipulation.changeWineTabColorDom(element);
-        };
+            /* The below get the Wines Json file and assign the data within the returned object to $scope.wines */
 
 
-    })
+            GetDataService.getHTTPData('wines.json').then(function(data){
 
-    /* This controller is in charge of anything related to customer Login and Logout (Inactive) */
+                $scope.wines = data.data;
 
-        .controller('customerQueriesController',function($http,$scope,store) {
+            });
+
+            $scope.changeWineTabColor = function(element){
+
+                DomManipulation.changeWineTabColorDom(element);
+
+
+            };
+
+            $scope.activateDeactivateWineOverlay = function(element,action){
+
+
+                DomManipulation.ActivDeactivWineOverlay(element,action);
+
+
+            }
+
+
+        })
+
+        .controller('customerQueriesController',function($http,$scope) {
 
             /*below we initialize the variables that contain the customers record object and the ID primitive*/
 
@@ -36,14 +44,9 @@
             $scope.postCode = /^[a-zA-z0-9]/;
             $scope.emailRegex = /^[_a-z0-9._%+-]+@[a-z0-9.-]*\.[a-z]/;
 
-            /*The three $scope variables below feed information about which specific Key/value pair in the customer object to
-            take the information from when binding the information in the customer object with
-            the Customer.html page */
-
-            $scope.basket = store.get('basketCookie');
 
         })
-        /* the below controller is in charge of the inclusion of data within the basket and the calculations for the totals and number of items (inactive)*/
+        /* the below controller is in charge of the inclusion of data within the basket and the calculations for the totals and number of items*/
 
         .controller('basketController', function ($scope, $http, store,getAddressAPI,BasketService,DomManipulation,GetDataService) {
 
@@ -65,13 +68,10 @@
             };
 
 
-            $scope.confirmAddressFunction = function(){
-                DomManipulation.confirmAddress()
+            $scope.confirmAddressFunction = function(action){
+                DomManipulation.confirmAddress(action)
 
             };
-
-
-            /* The below get the Wines Json file and assign the data within the returned object to $scope.wines */
 
 
             $scope.basket = store.get('basketCookie');
@@ -124,4 +124,4 @@
         })
 
 
-})()
+})();

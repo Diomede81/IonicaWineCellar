@@ -1,9 +1,28 @@
 <section class="info-section" ng-controller="customerQueriesController as customerqueries">
-    <div class="container enquiry-form-container">
+    <div class="container-fluid enquiry-form-container">
         <div class="row">
-            <div class="col-lg-1">
+            <div class="col-md-4 col-xs-12" data-ng-controller="WinesController as winesSelection">
+                <h1>Your Basket</h1>
+                <div class="row basket-wine-display-row" ng-repeat="wine in basket track by $index" id="{{wine.id}}">
+                    <div class="wine-display-inner-container" ng-init="basket=(basket[$index].totalBasket)" >
+                        <img ng-src="{{wine.images[0].full}}" alt="{{wine.name}} bottle image" width="45px" height="180px" style="float: left;">
+                        <div class="wine-display-inner-container-info" >
+                            <h1>{{wine.name}}</h1><br>
+                            <p><strong>Region:</strong> {{wine.region}}</p>
+                            <label class="pull-right">Quantity
+                                <input type="number" size="1" min="1" max="9"  value="{{wine.totalBasket}}" name="num" disabled><br>
+                                <span class="error-message"></span></label>
+                            <p><strong>Price:</strong> {{wine.price | currency : '£'}}</p>
+                        </div>
+                    </div>
+                </div>
+                <ul class="nav navbar-nav pull-right basket-price-quantity basket-price-confirmation">
+                    <li>Quantity: {{basketTotal.quantity}}</li>
+                    <li>Total: {{basketTotal.sum | currency:'£'}}</li>
+                </ul>
+                <a href="/basket"><button class="btn btn-danger full-width" id="order-form-backToBasket-button">Change Order</button></a>
             </div>
-            <div class="col-lg-10 col-xs-12">
+            <div class="col-md-8 col-xs-12">
                 <form  id="enquiry-form" name="enquiryForm" novalidate data-ng-submit="submitForm()" ng-controller="basketController" >
                     <h1>Order Confirmation</h1>
                     <label>Name:<br>
@@ -37,6 +56,7 @@
 
                         </Select>
                         <a ng-click="confirmAddressFunction()" class="btn btn-default">Confirm Address</a>
+                        <a ng-click="confirmAddressFunction('manually')" class="btn btn-default">Add Maually</a>
                     </label>
                     <div id="addressContainer">
                         <label>Address Line 1
@@ -48,8 +68,8 @@
                         <label>Town
                             <input type="text" name="town" required>
                         </label><label>County
-                            <input type="text" name="county">
-                        </label>
+                        <input type="text" name="county">
+                    </label>
                     </div>
 
                     <p>Further Information</p>
@@ -70,8 +90,6 @@
                     </label><br>
                     <button type="submit" class="btn btn-default" data-ng-disabled="enquiryForm.$invalid">Submit</button>
                 </form>
-            </div>
-            <div class="col-lg-1">
             </div>
         </div>
     </div>

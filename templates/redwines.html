@@ -1,27 +1,27 @@
 <div class="tab-content" style="background-image: url('../img/redwinesbackground.jpg');background-size: cover;color: white">
-<div class="header-paragraph-container">
-    <h1>Our Red Wines</h1>
-</div>
-<div class="row wine-list-container" >
-    <div class="col-lg-11 col-sm-12 wine-display-wines-page"  ng-repeat="wine in wines | filter:{type: 'red' , region:region}">
-        <div class="wine-display-inner-container">
-            <div class="wine-display-inner-container-overlay full-width">
-                <a href="javascript:return none" onclick="CloseWineOverlayDescription(this.parentNode)"><span class="fa fa-remove fa-2x pull-right font-color-white"></span></a>
-                <p>{{wine.description}}</p>
-                <p><strong>ABV:</strong> {{wine.ABV}}</p>
-            </div>
-            <img ng-src="{{wine.images[0].full}}" alt="{{wine.name}} bottle image" width="45px" height="180px" style="float: left;">
-            <div class="wine-display-inner-container-info">
-                <h1>{{wine.name}}</h1><br>
-                <p><strong>Description:</strong> <a href="javascript:return none" onclick="ActivateWineOverlayDescription(this.parentNode.parentNode)">Click Here for more information</a></p>
-                <p><strong>Region:</strong> {{wine.region}}</p>
-                <button class="btn btn-default pull-right" ng-click="addTobasket(this,$event)">Buy</button>
-                <label class="pull-right">Quantity
-                    <input type="number" size="1" min="1" max="9" value="1"></label>
-                <p><strong>Price:</strong> {{wine.price | currency : '£'}}</p>
-                <span class="pull-right wine-add-to-basket-message">Wine Added</span>
+    <div class="header-paragraph-container">
+        <h1>Our Red Wines</h1>
+    </div>
+    <div class="row wine-list-container" >
+        <div class="col-lg-11 col-sm-12 wine-display-wines-page"  ng-repeat="wine in wines | filter:{type: 'red' , region:region}">
+            <div class="wine-display-inner-container">
+                <div class="wine-display-inner-container-overlay full-width">
+                    <a href="#" ng-click="activateDeactivateWineOverlay($event.currentTarget)"><span class="fa fa-remove fa-2x pull-right font-color-white"></span></a>
+                    <p>{{wine.description}}</p>
+                    <p><strong>ABV:</strong> {{wine.ABV}}</p>
+                </div>
+                <img ng-src="{{wine.images[0].full}}" alt="{{wine.name}} bottle image" width="45px" height="180px" style="float: left;">
+                <div class="wine-display-inner-container-info">
+                    <h1>{{wine.name}}</h1><br>
+                    <p><strong>Description:</strong> <a href="#" ng-click="activateDeactivateWineOverlay($event.currentTarget,'activate')">Click Here for more information</a></p>
+                    <p><strong>Region:</strong> {{wine.region}}</p>
+                    <button class="btn btn-default pull-right" ng-click="addTobasket(this,$event)">Buy</button>
+                    <label class="pull-right">Quantity
+                        <input type="number" size="1" min="1" max="9" value="1"></label>
+                    <p><strong>Price:</strong> {{wine.price | currency : '£'}}</p>
+                    <span class="pull-right wine-add-to-basket-message">Wine Added</span>
+                </div>
             </div>
         </div>
     </div>
-</div>
 </div>

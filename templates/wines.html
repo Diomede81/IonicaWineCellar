@@ -2,9 +2,9 @@
 <section class="wines-page-main-section" >
 
     <ul class="nav nav-tabs"  >
-        <li id="redWineTabLink" ng-click="changeWineTabColor($event.currentTarget)"><a ui-sref="redWine">Red</a></li>
-        <li id="whiteWineTabLink" ng-click="changeWineTabColor($event.currentTarget)"><a  ui-sref="whiteWine">White</a></li>
-        <li id="sparklingWineTabLink" ng-click="changeWineTabColor($event.currentTarget)"><a  ui-sref="sparklingWine" aria-controls="sparkling" ">Sparkling/Rose</a></li>
+        <li id="redWine" ng-click="changeWineTabColor($event.currentTarget)"><a ui-sref="redWine">Red</a></li>
+        <li id="whiteWine" ng-click="changeWineTabColor($event.currentTarget)"><a  ui-sref="whiteWine">White</a></li>
+        <li id="sparklingWine" ng-click="changeWineTabColor($event.currentTarget)"><a  ui-sref="sparklingWine" aria-controls="sparkling" ">Sparkling/Rose</a></li>
     </ul>
     <div class="container wines-stock-container">
         <div class="wines-filter-full-container">
@@ -50,10 +50,10 @@
         </div>
         <div class="wine-display-container-tabs full-width" ng-controller="basketController" >
 
-                <ui-view></ui-view>
+            <ui-view></ui-view>
 
-                </div>
-            </div>
         </div>
+    </div>
+    </div>
     </div>
 </section>

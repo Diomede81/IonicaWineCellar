@@ -12,7 +12,7 @@
 
 
 
-    // main navigation menu directive
+        // main navigation menu directive
 
         .directive('navMenu', function () {
 
@@ -22,17 +22,6 @@
                 restrict: 'E',
                 templateUrl: 'templates/navMenu.html'
 
-            }
-
-        })
-
-        // small vertical navigation included in informational pages aboutUs, delivery, contacts and customer login
-
-        .directive('infopagesnavigation', function () {
-
-            return {
-                restrict: 'E',
-                templateUrl: '/ionicawineCellarProject/templates/infopagesnavigation.html'
             }
 
         })

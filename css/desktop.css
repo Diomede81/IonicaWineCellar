@@ -170,6 +170,8 @@
 
     .carousel-header-div-container {
         height: 200px;
+
+        background-color: rgb(200, 200, 2000);
         background-color: rgba(0, 0, 0, 0.3);
         -webkit-border-radius: 5px;
         -moz-border-radius: 5px;
@@ -188,13 +190,15 @@
         transition-delay: 1s;
         transition: opacity 1s;
         -webkit-transition: opacity 1s;
+        -moz-transition:opacity 1s;
+        -o-transition:opacity 1s;
         transition-timing-function: ease-in;
     }
 
     div.carousel-header-div-container img{
         display:block;
     }
-    
+
 
     .carousel-active-text-animation {
         transition: opacity 2s;
@@ -262,11 +266,16 @@
 
     .wine-box:hover .wine-box-overlay {
         -webkit-transform: translate(400px, 0);
+        -ms-transform: translate(400px, 0);
+        -moz-transform: translate(400px, 0);
+        -o-transform: translate(400px, 0);
         transform: translate(400px, 0);
     }
 
     .wine-box h2 {
         position: absolute;
+        -moz-transition: transform 0.2s;
+        -o-transition: transform 0.2s;
         -webkit-transition: transform 0.2s;
         transition: transform 0.2s, opacity 0.2s ease-in;
         z-index: 100;
@@ -280,6 +289,8 @@
     .wine-box p {
         position: absolute;
         -webkit-transition: transform 0.2s;
+        -moz-transition: transform 0.2s;
+        -o-transition: transform 0.2s;
         transition: transform 0.2s, opacity 0.2s ease-in;
         transition-delay: 0.2s;
         z-index: 100;
@@ -290,6 +301,9 @@
 
     .wine-box:hover h2 {
         -webkit-transform:translate(-30px, 100px);
+        -ms-transform:translate(-30px, 100px);
+        -moz-transform:translate(-30px, 100px);
+        -o-transform:translate(-30px, 100px);
         transform: translate(-30px, 100px);
         opacity: 1;
     }
@@ -314,6 +328,7 @@
 
     .news-event-tips-row {
         background-color: rgba(255, 255, 255, 0.7);
+        background-color: rgb(200, 200, 200);
     }
 
     .tips-and-events-item-container > p, blockquote {
@@ -409,6 +424,7 @@
 
     .wine-display-inner-container-overlay {
         height: 110%;
+        background: rgb(255,255,255);
         background: rgba(255,255,255,0.9);
         position: absolute;
         left: 100%;
@@ -507,6 +523,7 @@
         height: 200px;
         max-height: 400px;
         color: rgb(0, 0, 0);
+        background-color: rgb(125, 125, 125);
         background-color: rgba(255, 255, 255, 0.5);
         font-weight: 900;
         margin: 0 4%;
@@ -589,7 +606,6 @@
         padding: 10px 0 10px 0;
         color: black;
         font-family: 'Marck Script', sans-serif;
-    !important;
     }
 
     .info-section p {
@@ -857,6 +873,22 @@
         font-weight: bold;
         text-align:center;
 
+    }
+
+
+
+    .basket-price-confirmation{
+
+        font-size:1.8em;
+    }
+
+    .basket-price-confirmation li{
+        padding-right:20px;
+    }
+
+    #order-form-backToBasket-button{
+
+        font-size:1.5em;
     }
 
 }

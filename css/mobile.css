@@ -749,6 +749,23 @@
         padding: 10px;
     }
 
+    body > div > section > div > div > div.col-md-4.col-xs-12.ng-scope > h1{
+        font-size:5em;
+        padding-left:10px;
+        color:black;
+        font-align:center;
 
+    }
+
+    .basket-price-confirmation{
+
+        font-size:1em;
+    }
+
+
+    #order-form-backToBasket-button{
+
+        font-size:1em;
+    }
 
 }
