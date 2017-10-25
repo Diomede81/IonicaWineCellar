@@ -128,16 +128,18 @@ The application is ready to be deployed on a live web server, just copy the file
 
 ## Versioning
 
-I have used [Git]https://git-scm.com/) & [GitHub](https://github.com/)( for versioning.
+I have used [Git](https://git-scm.com/) & [GitHub](https://github.com/)( for versioning.
 
 ## Author
 
 * **Luca Licata** - [GitHub](https://github.com/Diomede81) - [Linkedin](www.linkedin.com/in/luca-licata-26637641
 )
 
-See also the list of [contributors](https://github.com/your/project/contributors) who participated in this project.
-
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+
+## Acknowledgments
+
+* Many Thanks to my Mentor **Theo Despoudis** [GitHub](https://github.com/theodesp) for all the support with ensuring that this application's code would be up to high standards
 
