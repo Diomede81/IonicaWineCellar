@@ -113,7 +113,7 @@
 
                 stockAvailabilityCheck: function(event, basket, wineStock, basketWineContent) {
 
-                    event.preventDefault();
+
 
                     if (basket === null) {
 

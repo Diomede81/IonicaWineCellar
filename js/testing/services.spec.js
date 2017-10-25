@@ -57,6 +57,10 @@ describe('BasketService',function() {
         basketEmptyError : function () {
 
 
+        },
+
+        makeBasketIconAppearDisappear: function(action,basket){
+            return 1
         }
 
     };
@@ -177,14 +181,16 @@ describe('BasketService',function() {
         beforeEach(function(){
 
             addItemToBasketDomSpy = spyOn(DomManipulation,'addItemToBasketDom').and.returnValue(2);
+            addItemToBasketDomSpy2 = spyOn(DomManipulation,'makeBasketIconAppearDisappear').and.returnValue(2);
 
         });
 
 
         it('should Exist', inject(function (BasketService) {
 
-            expect(BasketService.addItemTobasket(item,element,quantity,basket)).toEqual([{id:4, totalBasket:2}])
+            expect(BasketService.addItemTobasket(item,element,quantity,basket)).toEqual([{id:4, totalBasket:2}]);
             expect(addItemToBasketDomSpy).toHaveBeenCalledWith(element);
+            expect(addItemToBasketDomSpy2).toHaveBeenCalledWith('appear');
             expect(addItemToBasketDomSpy).toHaveBeenCalledTimes(1);
 
         }))
