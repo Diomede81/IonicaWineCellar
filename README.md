@@ -50,7 +50,7 @@ routing and other technologies.
 Jasmine/Karma testing suite have been used to test the user action of adding items to the basket and eventual basket calculation about 
 prices and quantities
 
-Jasmine/Karma(if you follow the installation procedure correctly) will be installed with NPM/Karma packages and ready to use
+Jasmine/Karma(if you follow the installation procedure correctly) will be installed with NPM/Bower packages and ready to use
 
 if you have any trouble installing please visit the this [link](https://karma-runner.github.io/1.0/intro/installation.html)
 
