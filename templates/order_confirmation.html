@@ -1,10 +1,33 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <title>$Title$</title>
-</head>
-<body>
-$END$
-</body>
-</html>
+<section class="order-confirmation-main-container">
+    <div class="container order-confirmation-inner-container">
+    <div class="jumbotron">
+        <h1>Thank you for your Order!!</h1><br>
+        <p>Your Order has been successfully submitted and we will get in touch soon</p>
+        <p>If you have any further query about your order please click on the link below</p>
+        <p><a class="btn btn-primary btn-lg" href="/enquiryForm" role="button">Queries</a></p>
+    </div>
+
+        <div class="row">
+            <div class="col-md-12 col-xs-12" data-ng-controller="WinesController as winesSelection">
+    <h1>Your Order Summary</h1>
+    <div class="row basket-wine-display-row" ng-repeat="wine in basket track by $index" id="{{wine.id}}">
+        <div class="wine-display-inner-container" ng-init="basket=(basket[$index].totalBasket)" >
+            <img ng-src="{{wine.images[0].full}}" alt="{{wine.name}} bottle image" width="45px" height="180px" style="float: left;">
+            <div class="wine-display-inner-container-info" >
+                <h1>{{wine.name}}</h1><br>
+                <p><strong>Region:</strong> {{wine.region}}</p>
+                <label class="pull-right">Quantity
+                    <input type="number" size="1" min="1" max="9"  value="{{wine.totalBasket}}" name="num" disabled><br>
+                    <span class="error-message"></span></label>
+                <p><strong>Price:</strong> {{wine.price | currency : '£'}}</p>
+            </div>
+        </div>
+    </div>
+            </div>
+            <ul class="nav navbar-nav pull-right basket-price-quantity basket-price-confirmation">
+                <li>Quantity: {{basketTotal.quantity}}</li>
+                <li>Total: {{basketTotal.sum | currency:'£'}}</li>
+            </ul>
+        </div>
+    </div>
+</section>

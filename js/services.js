@@ -27,8 +27,6 @@
 
                 addItemTobasket: function(item, element, quantity, basket) {
 
-                    console.log(item);
-                    console.log(element);
                     if (basket === null) {
 
                         basket = [];

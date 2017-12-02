@@ -1,10 +1,11 @@
 # Ionica Wine Cellar
 
-The website created for this project is a wine wholesale website mainly utilized to showcase wines, production origin and wholesale, 
-users can get more information about each wine type and eventually purchase them via a
-simple confirmation process, the app will only send a purchase cofirmation email to the wine cellar owner for the order to be 
-taken into account and reviewed with the customer,it is single page web application created utilizing AngularJs
-routing and other technologies.
+The website created for this project is a wine wholesale website mainly utilized to showcase wines, production origin and wholesale/retail.
+Users can get more information and tips about wine&food matching, wine tasting events, each wine type and eventually purchase wines via a
+simple order process, being a front-end only application, the order confirm only visually to the user that the order has been placed, without performing any task
+once this has been completed.
+
+This is a single page web application built using the AngularJS as main javascript Framework.
 
 ## Features
 
@@ -14,15 +15,15 @@ routing and other technologies.
 
 - Ability to navigate pages seamlessly via one page application routing
 
-- Ability to add wines to basket
+- Ability to add wines to basket, verify item quantity and total order cost
 
-- Ability to review wine before purchase
+- Ability to review basket before purchase and apply edit if necessary
 
-- Real-time stock checker
+- Real-time stock checker(the app will not let the user order more wines than actually in stock)
 
 - Ability to send queries via form
 
-- Ability to submit order via form
+- Ability to submit orders via form
 
 
 
@@ -58,6 +59,9 @@ if you have any trouble installing please visit the this [link](https://karma-ru
 
 The Tests have been designed to verify correct functionality of the services that will take care of the shopping basket
 and other APIs(I.e. the API that will retrieve list of addresses from postcode provided)
+
+A library called angular-mocks has been used to simulate the utilization of modules in order to test the various services within the
+Karma-Jasmine testing suite.
 
 An Example:
 
@@ -126,14 +130,45 @@ The application is ready to be deployed on a live web server, just copy the file
 * [Karma](https://karma-runner.github.io/1.0/index.html) - The test runner used
 * [JetBrains Webstorm](https://www.jetbrains.com/webstorm/) - The IDE used to develop and test the application
 
+## More Information about build libraries
+
+The following library has been also used to enhance the user experience
+
+#### Angular [UI-Router](https://github.com/angular-ui/ui-router)
+   - Utilized to enable nesting of multiple pages within the AngularJS single page routing process, the challenge was to enable the utilization of three bootstrap style tabs
+     that would switch based on the tab selected by the related anchor element, those tabs where included
+     within a single page loaded using ng-view, UI-router has helped with this by simplifying
+     the process and enabling the nesting of the tabs within the page, making possible to keep the HTML page loaded
+     within the ng-view element static, whilst having the tabs seamlessly switching between each other loading further HTML pages in the process.
+
+     Find Angular UI-Router [here](https://github.com/angular-ui/ui-router)
+
+
+## API USED
+
+#### Crafty Clicks
+
+- Their Address Lookup & Verification has been used to ensure that the postcode included
+    in the order form is valid and correct
+    this is a very easy to use API
+
+    - In order to test the capability please use the following example postcodes as the
+    free trial has expired and no more residential postcodes can be looked-up
+
+        - aa11ad
+        - aa11ab
+        - aa11aa
+
+    Find Crafty Clicks [here](https://craftyclicks.co.uk/support/tutorials/)
+
+
 ## Versioning
 
-I have used [Git](https://git-scm.com/) & [GitHub](https://github.com/)( for versioning.
+I have used [Git](https://git-scm.com/) & [GitHub](https://github.com/) for version control.
 
 ## Author
 
-* **Luca Licata** - [GitHub](https://github.com/Diomede81) - [Linkedin](www.linkedin.com/in/luca-licata-26637641
-)
+* **Luca Licata** - [GitHub](https://github.com/Diomede81) - [Linkedin](www.linkedin.com/in/luca-licata-26637641)
 
 ## License
 

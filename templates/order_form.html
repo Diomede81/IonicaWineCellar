@@ -23,7 +23,7 @@
                 <a href="/basket"><button class="btn btn-danger full-width" id="order-form-backToBasket-button">Change Order</button></a>
             </div>
             <div class="col-md-8 col-xs-12">
-                <form  id="enquiry-form" name="enquiryForm" novalidate data-ng-submit="submitForm()" ng-controller="basketController" >
+                <form  id="enquiry-form" name="enquiryForm" novalidate data-ng-submit="orderSubmission()" ng-controller="basketController" >
                     <h1>Order Confirmation</h1>
                     <label>Name:<br>
                         <input type="text"  maxlength="50" data-ng-model="name" required="" name="name"><br>
@@ -88,7 +88,7 @@
                         I would like to hear all Ionica Wine Cellar news about new products, promotions and store events
                         <input type="checkbox" name="receiveNewsletter" value="newsletter" id="checkboxes">
                     </label><br>
-                    <button type="submit" class="btn btn-default" data-ng-disabled="enquiryForm.$invalid">Submit</button>
+                    <button type="submit" class="btn btn-default" data-ng-disabled="enquiryForm.$invalid" >Submit</button>
                 </form>
             </div>
         </div>

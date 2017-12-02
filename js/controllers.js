@@ -5,6 +5,7 @@
 
         .controller('WinesController', function($scope,$http,BasketService,GetDataService,DomManipulation) {
 
+
             /* The below get the Wines Json file and assign the data within the returned object to $scope.wines */
 
 
@@ -48,7 +49,7 @@
         })
         /* the below controller is in charge of the inclusion of data within the basket and the calculations for the totals and number of items*/
 
-        .controller('basketController', function ($scope, $http, store,getAddressAPI,BasketService,DomManipulation,GetDataService) {
+        .controller('basketController', function ($scope, $http, store,getAddressAPI,BasketService,DomManipulation,GetDataService,$location) {
 
             $scope.addTobasket = function(item, element){
                 var quantity = parseInt(element.currentTarget.nextElementSibling.children[0].value);
@@ -120,6 +121,12 @@
                 })
 
             };
+
+            $scope.orderSubmission = function(){
+
+                $location.path('/orderconfirmation');
+
+            }
 
         })
 

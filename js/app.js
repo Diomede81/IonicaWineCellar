@@ -12,12 +12,13 @@
                 templateUrl: 'templates/home.html',
                 controller: 'WinesController'
 
-            });
+            })
 
-            $routeProvider.when('/wines', {
-                templateUrl: 'templates/wines.html',
-                controller: 'WinesController'
 
+                .when('/wines', {
+
+                    templateUrl: 'templates/wines.html',
+                    controller: 'WinesController'
             })
 
                 .when('/ourCustomers', {
@@ -58,12 +59,20 @@
 
                 })
 
+                .when('/orderconfirmation',{
+
+                    templateUrl: 'templates/order_confirmation.html',
+                    controller:'basketController'
+
+                })
+
                 .otherwise({
 
-                    templateUrl: 'templates/home.html',
-                    controller: 'WinesController'
+                redirectTo : '/wines'
 
                 });
+
+
 
             var redWineState = {
 
@@ -93,4 +102,5 @@
             $stateProvider.state(sparklingwineState);
 
         })
+
 })();

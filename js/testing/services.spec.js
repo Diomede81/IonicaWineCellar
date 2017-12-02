@@ -42,14 +42,12 @@ describe('BasketService',function() {
         addItemToBasketDom: function (item) {
 
             item = 1;
-            console.log('I am dom basket Add');
 
             return item;
         },
 
-        wineStockCheckMessages: function (item, mockVar, wineStock) {
-            item = 1;
-            console.log(item);
+        wineStockCheckMessages: function () {
+
             return 1
         },
 
@@ -59,7 +57,7 @@ describe('BasketService',function() {
 
         },
 
-        makeBasketIconAppearDisappear: function(action,basket){
+        makeBasketIconAppearDisappear: function(t){
             return 1
         }
 

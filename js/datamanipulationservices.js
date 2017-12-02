@@ -94,8 +94,6 @@
 
                 confirmAddress: function (action) {
 
-                    console.log(action);
-
                     if(action === 'manually') {
 
                         angular.element('#addressContainer').css('display', 'block');
@@ -157,7 +155,6 @@
 
 
                 makeBasketIconAppearDisappear: function (action, basket) {
-                    console.log(status);
                     if (action === 'disappear') {
 
                         basket = null;

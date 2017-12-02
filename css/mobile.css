@@ -7,7 +7,6 @@
 
     .row, .container, .container-fluid, .col-lg-6 {
         padding: 0;
-        margin: 0;
     }
 
     ul.navbar-nav:not(.basket-price-quantity) {
@@ -268,7 +267,7 @@
 
     #red .header-paragraph-container h1 {
         color: white;
-        font-size: 3em;
+        font-size: 3em!important;
     }
 
     #white .header-paragraph-container h1 {
@@ -430,7 +429,7 @@
     }
 
     .customer-page-comments-container {
-
+        margin-top:100px;
         padding-top: 50px;
     }
 
