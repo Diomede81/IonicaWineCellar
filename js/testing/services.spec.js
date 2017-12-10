@@ -121,7 +121,7 @@ describe('BasketService',function() {
         ];
 
 
-        var element = "";
+        var element = '';
 
         var quantityTest1 = 1;
         var quantityTest2 = 2;
@@ -135,7 +135,7 @@ describe('BasketService',function() {
         });
 
 
-        it('should Exist', inject(function (BasketService) {
+        it('should verify that elements have been added to the basket accordingly and that services responsbile have been called with correct argument only a certain amount of times', inject(function (BasketService) {
 
             expect(BasketService.addItemTobasket(itemTest1, element,quantityTest1,basket)).toEqual([{id: 1, totalBasket:1},{id: 2,totalBasket: 1},{id: 3,totalBasket: 2}]);
             expect(addItemToBasketDomSpy).toHaveBeenCalledWith(element);
@@ -143,9 +143,9 @@ describe('BasketService',function() {
 
         }));
 
-        it('should Exist', inject(function (BasketService) {
+        it('should verify that elements have been added to the basket accordingly and that services responsbile have been called with correct argument only a certain amount of times', inject(function (BasketService) {
 
-            expect(BasketService.addItemTobasket(itemTest2,element,quantityTest2,basket)).toEqual([{id: 1, totalBasket:1},{id: 2,totalBasket: 1},{id: 3,totalBasket: 2},{id: 4,totalBasket: 2}])
+            expect(BasketService.addItemTobasket(itemTest2,element,quantityTest2,basket)).toEqual([{id: 1, totalBasket:1},{id: 2,totalBasket: 1},{id: 3,totalBasket: 2},{id: 4,totalBasket: 2}]);
             expect(addItemToBasketDomSpy).toHaveBeenCalledWith(element);
             expect(addItemToBasketDomSpy).toHaveBeenCalledTimes(1);
 
@@ -170,11 +170,11 @@ describe('BasketService',function() {
 
         var basket = null;
 
-        var element = "";
+        var element = '';
 
         var quantity = 2;
 
-        var addItemToBasketDomSpy
+        var addItemToBasketDomSpy;
 
         beforeEach(function(){
 
@@ -184,7 +184,7 @@ describe('BasketService',function() {
         });
 
 
-        it('should Exist', inject(function (BasketService) {
+        it('should add item to basket and return correct basket object, it would also call service with appropriate argument only once and make the basket icon appear', inject(function (BasketService) {
 
             expect(BasketService.addItemTobasket(item,element,quantity,basket)).toEqual([{id:4, totalBasket:2}]);
             expect(addItemToBasketDomSpy).toHaveBeenCalledWith(element);
@@ -363,7 +363,7 @@ describe('BasketService',function() {
 
         ];
 
-        event = "";
+        event = '';
 
         var wineStockCheckMessagesSpy;
 
@@ -456,7 +456,7 @@ describe('BasketService',function() {
 
         ];
 
-        event = "";
+        event = '';
 
         var wineStockCheckMessagesSpy;
 

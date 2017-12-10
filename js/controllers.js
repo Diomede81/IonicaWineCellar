@@ -2,6 +2,14 @@
 
     angular.module('RouteControllers',['angular-storage','ngRoute'])
 
+        .constant('regex',{
+
+            telRegex : /^[0-9]*$/,
+            postCode : /^[a-zA-z0-9]*$/,
+            emailRegex :/^[_a-z0-9._%+-]+@[a-z0-9.-]*\.[a-z]/
+
+        })
+
 
         .controller('WinesController', function($scope,$http,BasketService,GetDataService,DomManipulation) {
 
@@ -33,23 +41,32 @@
 
         })
 
-        .controller('customerQueriesController',function($http,$scope) {
+        .controller('customerQueriesController',function($http,$scope,regex) {
 
             /*below we initialize the variables that contain the customers record object and the ID primitive*/
 
             $scope.customer = {};
             $scope.id = null;
 
+            console.log(regex.telRegex);
+
             /* Regula Expression utilized for form validation */
-            $scope.telRegex = /^[0-9]/;
-            $scope.postCode = /^[a-zA-z0-9]/;
-            $scope.emailRegex = /^[_a-z0-9._%+-]+@[a-z0-9.-]*\.[a-z]/;
+            $scope.telRegex = regex.telRegex;
+            $scope.postCode = regex.postCode;
+            $scope.emailRegex = regex.emailRegex;
 
 
         })
+
         /* the below controller is in charge of the inclusion of data within the basket and the calculations for the totals and number of items*/
 
         .controller('basketController', function ($scope, $http, store,getAddressAPI,BasketService,DomManipulation,GetDataService,$location) {
+
+            angular.element('.menu-item').on('click',function(){
+
+                angular.element('html, body').scrollTop(0);
+            });
+
 
             $scope.addTobasket = function(item, element){
                 var quantity = parseInt(element.currentTarget.nextElementSibling.children[0].value);

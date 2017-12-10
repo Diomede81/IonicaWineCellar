@@ -23,5 +23,20 @@ function openMobileMenu() {
 
 }
 
+console.log('loaded');
+
+$(document).ready(function() {
+
+
+    $('#menuItem').click(function () {
+
+        console.log('done');
+
+
+
+
+    })
+});
+
 
 

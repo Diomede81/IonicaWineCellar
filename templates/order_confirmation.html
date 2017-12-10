@@ -12,7 +12,7 @@
     <h1>Your Order Summary</h1>
     <div class="row basket-wine-display-row" ng-repeat="wine in basket track by $index" id="{{wine.id}}">
         <div class="wine-display-inner-container" ng-init="basket=(basket[$index].totalBasket)" >
-            <img ng-src="{{wine.images[0].full}}" alt="{{wine.name}} bottle image" width="45px" height="180px" style="float: left;">
+            <img ng-src="{{wine.images[0].full}}" alt="{{wine.name}} bottle image" width="45px" height="180px" class="pull-left">
             <div class="wine-display-inner-container-info" >
                 <h1>{{wine.name}}</h1><br>
                 <p><strong>Region:</strong> {{wine.region}}</p>

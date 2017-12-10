@@ -1,4 +1,4 @@
-<div class="tab-content" style="background-image: url('../img/most beautiful wine high resolution wallpaper.jpg');background-size: cover;">
+<div class="tab-content white-wines">
     <div class="header-paragraph-container">
         <h1 class="full-width" style="color:rgb(34,34,34);">Our White Wines</h1>
     </div>
@@ -10,10 +10,11 @@
                     <p>{{wine.description}}</p>
                     <p><strong>ABV:</strong> {{wine.ABV}}</p>
                 </div>
-                <img ng-src="{{wine.images[0].full}}" alt="{{wine.name}} bottle image" width="45px" height="180px" style="float: left;">
+                <img ng-src="{{wine.images[0].full}}" alt="{{wine.name}} bottle image" width="45px" height="180px" class="pull-left">
                 <div class="wine-display-inner-container-info">
                     <h1>{{wine.name}}</h1><br>
-                    <p><strong>Description:</strong> <a href="#" ng-click="activateDeactivateWineOverlay($event.currentTarget,'activate')">Click Here for more information</a></p>
+                    <p><strong>Description:</strong> <a href="#" ng-click="activateDeactivateWineOverlay($event.currentTarget,'activate')">
+                        Click Here for more information</a></p>
                     <p>Region: {{wine.region}}</p>
                     <button class="btn btn-default pull-right" ng-click="addTobasket(this,$event)">Buy</button>
                     <label class="pull-right">Quantity

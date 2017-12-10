@@ -97,7 +97,7 @@
                     if (basket === null) {
                         return 0;
                     } else {
-                        while (i < (basket.length)) {
+                        while (i < basket.length) {
                             quantity += basket[i].totalBasket;
                             sum += (basket[i].price * basket[i].totalBasket);
                             i++;

@@ -1,0 +1,211 @@
+@media screen and (min-width:992px) {
+/* Wines.html Page Selectors */
+.wines-page-main-section {
+    background-image: url('../img/bashcorpo_com__paper1.jpg');
+    font-family: 'Playball', sans-serif;
+    padding-bottom: 50px;
+}
+
+div.wine-display-inner-container {
+    overflow: hidden;
+    padding: 0 20px 0 20px;
+}
+
+div.wine-display-inner-container p {
+    margin: 5px 10px 12px 50px;
+    text-align: justify;
+    font-weight: 500;
+}
+
+div.wine-display-inner-container img {
+    min-height: 45px;
+    height: auto;
+    margin-top: 10px;
+}
+
+.wine-display-inner-container-info strong {
+    margin-top: 0;
+    font-size: 1.2em;
+    font-weight: bolder;
+}
+
+div.wine-display-inner-container button {
+    background-color: navajowhite;
+    margin-left: 10px;
+    height: 25px;
+    padding: 2px 5px 5px 5px;
+}
+
+.wine-display-inner-container h1 {
+    font-weight: bold;
+    color: black;
+    font-size: 1.5em;
+    margin-left: 50px;
+    margin-top: 10px;
+}
+
+.wine-display-inner-container-info {
+    padding-top: 10px;
+    padding-left: 20px;
+}
+
+.wine-display-inner-container-info p {
+    width: 95%;
+}
+
+.wine-display-inner-container-info span.wine-add-to-basket-message {
+    color: red;
+    font-size: 1.2em;
+    margin-right: 20px;
+    margin-top: 10px;
+    display: none;
+}
+
+.wine-display-inner-container-overlay {
+    height: 110%;
+    background: rgba(255,255,255,0.9);
+    position: absolute;
+    left: 100%;
+    opacity: 1;
+}
+
+.wine-display-inner-container-overlay p {
+    color: black;
+    font-size: 1.4em;
+    padding-top: 30px;
+    width: 90%;
+}
+
+div.wine-display-container > h1 {
+    text-align: center;
+    margin-top: 50px;
+}
+
+/* wines.html page - nav-tab selectors */
+.nav.nav-tabs {
+    margin-top: 70px;
+    border: solid 1px white;
+    background-color: rgb(100, 34, 34);
+}
+
+.nav.nav-tabs a {
+    color: black;
+    font-weight: bold;
+    font-size: 1.5em;
+}
+
+#red .header-paragraph-container h1{
+    color:white;
+    font-size: 4em;
+}
+
+#white .header-paragraph-container h1 {
+    color: #333;
+    font-size: 4em;
+}
+
+#sparkling .header-paragraph-container h2 {
+    font-size: 4em;
+    margin-bottom: 20px;
+}
+
+.wine-list-container {
+    padding-bottom: 30px;
+}
+
+/* wines.html - wines filter sidebar selectors */
+form.wine-region h2 {
+    font-size: 1.8em;
+}
+
+form.wine-region div label {
+    font-size: 1.4em;
+}
+
+.wines-stock-container {
+    height: auto;
+    display: flex;
+}
+
+#red {
+    background-image: url("../img/redwinesbackground.jpg");
+    background-size: cover;
+    color: white;
+}
+
+#white {
+    background-image: url("../img/most beautiful wine high resolution wallpaper.jpg");
+    background-size: cover;
+
+}
+
+#sparkling {
+    background-image: url("../img/sparkling.jpg");
+    background-size: cover;
+}
+
+.tab-pane {
+    border: solid 1px white;
+}
+
+.wines-filter-options .form-group {
+    font-weight: bold;
+    color: black;
+    margin-top: 100px;
+    margin-left: 20px;
+}
+
+.wines-filter-full-container {
+    border-right: solid 1px white;
+    border-left: solid 1px white;
+    background-color: rgb(100, 34, 34);
+    padding-right: 50px;
+    display:block;
+}
+
+/* wines.html - wine-display container and items selectors */
+
+
+.wine-display-container-tabs {
+    height: auto;
+}
+
+.red-wines{
+
+    background-image: url('../img/redwinesbackground.jpg');
+    background-size: cover;
+    color: white;
+}
+
+.white-wines{
+
+    background-image: url('../img/most beautiful wine high resolution wallpaper.jpg');
+    background-size: cover;
+}
+
+.sparkling-wines{
+
+    background-image: url('../img/sparkling.jpg');
+    background-size: cover;
+}
+
+div.wine-display-container > div.tab-content > div.tab-pane > .row {
+    margin-top: 50px;
+}
+
+.wine-display-wines-page {
+    width: 90%;
+    height: 200px;
+    max-height: 400px;
+    color: rgb(0, 0, 0);
+    background-color: rgba(255, 255, 255, 0.5);
+    font-weight: 900;
+    margin: 0 4%;
+    border-bottom: rgba(0, 0, 0, 0.8) solid 1px;
+    overflow: hidden;
+}
+
+.header-paragraph-container {
+    padding: 10px 0 10px 50px;
+}
+}

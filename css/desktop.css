@@ -1,35 +1,37 @@
 /* Main Classes*/
 @media screen and (min-width:992px) {
 
-    .row, .container, .container-fluid, .col-lg-6 {
-        padding: 0;
-        margin: 0 auto;
-    }
-
-    ul.nav.navbar-nav{
-        display:block!important;
-        margin:0;
-    }
-
-    #main-website-navbar span.pull-right.fa.fa-bars.fa-4x{
-        display:none;
-    }
-
-    .carousel-section{
-        display:block;
-    }
-
-    ul.nav.navbar-nav.pull-right li a{
-        font-size:1em;
+    .margin-left{
+        margin-left:50px;
     }
 
 
+    .margin-top-none{
+        margin-top:0;
+    }
+
+    ul.nav.navbar-nav {
+        display: block;
+        margin: 0;
+    }
+
+    #main-website-navbar span.pull-right.fa.fa-bars.fa-4x {
+        display: none;
+    }
+
+    .carousel-section {
+        display: block;
+    }
+
+    ul.nav.navbar-nav.pull-right li a {
+        font-size: 1em;
+    }
 
     body {
         font-family: 'Raleway', sans-serif;
         background: rgb(34, 34, 34);
         overflow: visible;
-        padding:0;
+        padding:0!important;
     }
 
     h1 {
@@ -82,7 +84,8 @@
         margin: 0;
         border: none;
         background-image: linear-gradient(to right, rgb(100, 34, 34) 90%, darkgrey);
-        height:70px;
+        height: 70px;
+        display:block!important;
     }
 
     nav.navbar-inverse button {
@@ -93,20 +96,21 @@
         color: white;
     }
 
-    .navbar-header{
-        width:35%;
-        margin-top:0;
+    .navbar-header {
+        width: 35%;
+        margin-top: 0;
     }
 
-    ul.nav.navbar-nav.pull-right{
-        width:auto;
+    ul.nav.navbar-nav.pull-right {
+        width: auto;
+        display:block!important;
     }
 
-    #main-website-navbar div.navbar-header .navbar-brand{
-        font-size:1.7em;
-        margin-left:10px;
+    #main-website-navbar div.navbar-header .navbar-brand {
+        font-size: 1.7em;
+        margin-left: 10px;
         font-family: 'Marck Script', sans-serif;
-        color:white;
+        color: white;
     }
 
     div.navbar-header img {
@@ -152,15 +156,15 @@
         -webkit-animation-duration: 0.5s;
         -moz-animation-duration: 0.5s;
         -o-animation-duration: 0.5s;
-        -webkit-animation-iteration-count: 5;
-        -moz-animation-iteration-count: 5;
-        -o-animation-iteration-count: 5;
-        animation-iteration-count: 5;
+        -webkit-animation-iteration-count: infinite;
+        -moz-animation-iteration-count: infinite;
+        -o-animation-iteration-count: infinite;
+        animation-iteration-count: infinite;
     }
 
-    .navbar div.anchors-container ul li hr.menulistBar{
-        margin:2px 0 0 0;
-        display:none;
+    .navbar div.anchors-container ul li hr.menulistBar {
+        margin: 2px 0 0 0;
+        display: none;
     }
 
     /*Index Page Carousel Section Selectors */
@@ -174,20 +178,14 @@
     }
 
     .carousel-header-div-container {
-        height: 200px;
-
-        background-color: rgb(200, 200, 2000);
-        background-color: rgba(0, 0, 0, 0.3);
-        -webkit-border-radius: 5px;
-        -moz-border-radius: 5px;
-        border-radius: 5px;
+        height:230px;
     }
 
     .carousel-header-div-container p:not(.customer-page-comment-p) {
-        position:relative;
-        top:50px;
+        position: relative;
+        top: 50px;
         font-size: 1.3em;
-        opacity:0;
+        opacity: 0;
     }
 
     .carousel-inner .item.active > header.carousel-image-header-container p {
@@ -195,15 +193,16 @@
         transition-delay: 1s;
         transition: opacity 1s;
         -webkit-transition: opacity 1s;
-        -moz-transition:opacity 1s;
-        -o-transition:opacity 1s;
         transition-timing-function: ease-in;
     }
 
-    div.carousel-header-div-container img{
-        display:block;
+    div.carousel-header-div-container img {
+        display: block;
     }
 
+    div.feedback-carousel {
+        margin-top: 60px;
+    }
 
     .carousel-active-text-animation {
         transition: opacity 2s;
@@ -217,39 +216,39 @@
         background-position: center;
         background-attachment: fixed;
         padding-top: 20px;
-        margin:0 auto 0 auto;
+        margin: 0 auto 0 auto;
     }
 
-    .container-wines-inner{
-        width:1110px;
-        height:200px;
-        margin:0 auto 50px auto;
+    .container-wines-inner {
+        width: 1110px;
+        height: 200px;
+        margin: 0 auto 0 auto;
     }
 
     .wineSelection {
         text-shadow: 2px 2px black;
     }
 
-    .container-wines h1{
-        font-size:5em;
+    .container-wines h1 {
+        font-size: 5em;
         text-align: center;
-        color:white;
+        color: white;
         font-family: 'Marck Script', sans-serif;
     }
 
-    div.wine-box a.wineSelection:hover ,  div.wine-box a.wineSelection h2:hover{
+    div.wine-box a.wineSelection:hover, div.wine-box a.wineSelection h2:hover {
         color: black;
-        text-shadow: 1px 1px white ;
+        text-shadow: 1px 1px white;
     }
 
     .wine-box {
-        width:350px;
-        height:auto;
-        margin-left:20px;
+        width: 350px;
+        height: auto;
+        margin-left: 20px;
+
         -webkit-border-radius: 5% 0 5% 0;
         -moz-border-radius: 5% 0 5% 0;
         border-radius: 5% 0 5% 0;
-
     }
 
     .wine-box-overlay {
@@ -269,18 +268,18 @@
         right: 350px;
     }
 
+    .wine-box-overlay img{
+
+        margin-left:50px;
+    }
+
     .wine-box:hover .wine-box-overlay {
         -webkit-transform: translate(400px, 0);
-        -ms-transform: translate(400px, 0);
-        -moz-transform: translate(400px, 0);
-        -o-transform: translate(400px, 0);
         transform: translate(400px, 0);
     }
 
     .wine-box h2 {
         position: absolute;
-        -moz-transition: transform 0.2s;
-        -o-transition: transform 0.2s;
         -webkit-transition: transform 0.2s;
         transition: transform 0.2s, opacity 0.2s ease-in;
         z-index: 100;
@@ -294,21 +293,16 @@
     .wine-box p {
         position: absolute;
         -webkit-transition: transform 0.2s;
-        -moz-transition: transform 0.2s;
-        -o-transition: transform 0.2s;
         transition: transform 0.2s, opacity 0.2s ease-in;
         transition-delay: 0.2s;
         z-index: 100;
         opacity: 0;
         font-weight: 600;
-        display:block;
+        display: block;
     }
 
     .wine-box:hover h2 {
-        -webkit-transform:translate(-30px, 100px);
-        -ms-transform:translate(-30px, 100px);
-        -moz-transform:translate(-30px, 100px);
-        -o-transform:translate(-30px, 100px);
+        -webkit-transform: translate(-30px, 100px);
         transform: translate(-30px, 100px);
         opacity: 1;
     }
@@ -333,13 +327,12 @@
 
     .news-event-tips-row {
         background-color: rgba(255, 255, 255, 0.7);
-        background-color: rgb(200, 200, 200);
     }
 
     .tips-and-events-item-container > p, blockquote {
         color: black;
         font-size: 0.8em;
-        display:block;
+        display: block;
     }
 
     .tips-and-events-item-container h2 {
@@ -365,181 +358,6 @@
         max-width: 600px;
     }
 
-    /* Wines.html Page Selectors */
-    .wines-page-main-section {
-        background-image: url('../img/bashcorpo_com__paper1.jpg');
-        font-family: 'Playball', sans-serif;
-        padding-bottom: 50px;
-    }
-
-    div.wine-display-inner-container {
-        overflow: hidden;
-        padding: 0 20px 0 20px;
-    }
-
-    div.wine-display-inner-container p {
-        margin: 5px 10px 12px 50px;
-        text-align: justify;
-        font-weight: 500;
-    }
-
-    div.wine-display-inner-container img {
-        min-height: 45px;
-        height: auto;
-        margin-top: 10px;
-    }
-
-    .wine-display-inner-container-info strong {
-        margin-top: 0;
-        font-size: 1.2em;
-        font-weight: bolder;
-    }
-
-    div.wine-display-inner-container button {
-        background-color: navajowhite;
-        margin-left: 10px;
-        height: 25px;
-        padding: 2px 5px 5px 5px;
-    }
-
-    .wine-display-inner-container h1 {
-        font-weight: bold;
-        color: black;
-        font-size: 1.5em;
-        margin-left: 50px;
-        margin-top: 10px;
-    }
-
-    .wine-display-inner-container-info {
-        padding-top: 10px;
-        padding-left: 20px;
-    }
-
-    .wine-display-inner-container-info p {
-        width: 95%;
-    }
-
-    .wine-display-inner-container-info span.wine-add-to-basket-message {
-        color: red;
-        font-size: 1.2em;
-        margin-right: 20px;
-        margin-top: 10px;
-        display: none;
-    }
-
-    .wine-display-inner-container-overlay {
-        height: 110%;
-        background: rgb(255,255,255);
-        background: rgba(255,255,255,0.9);
-        position: absolute;
-        left: 100%;
-        opacity: 1;
-    }
-
-    .wine-display-inner-container-overlay p {
-        color: black;
-        font-size: 1.4em;
-        padding-top: 30px;
-        width: 90%;
-    }
-
-    div.wine-display-container > h1 {
-        text-align: center;
-        margin-top: 50px;
-    }
-
-    /* wines.html page - nav-tab selectors */
-    .nav.nav-tabs {
-        border: solid 1px white;
-        background-color: rgb(100, 34, 34);
-    }
-
-    .nav.nav-tabs a {
-        color: black;
-        font-weight: bold;
-        font-size: 1.5em;
-    }
-
-    #red .header-paragraph-container h1{
-        color:white;
-        font-size: 4em;
-    }
-
-    #white .header-paragraph-container h1 {
-        color: #333;
-        font-size: 4em;
-    }
-
-    #sparkling .header-paragraph-container h2 {
-        font-size: 4em;
-        margin-bottom: 20px;
-    }
-
-    .wine-list-container {
-        padding-bottom: 30px;
-    }
-
-    /* wines.html - wines filter sidebar selectors */
-    form.wine-region h2 {
-        font-size: 1.8em;
-    }
-
-    form.wine-region div label {
-        font-size: 1.4em;
-    }
-
-    .wines-stock-container {
-        height: auto;
-        display: flex;
-    }
-
-    .tab-pane {
-        border: solid 1px white;
-    }
-
-    .wines-filter-options .form-group {
-        font-weight: bold;
-        color: black;
-        margin-top: 100px;
-        margin-left: 20px;
-    }
-
-    .wines-filter-full-container {
-        border-right: solid 1px white;
-        border-left: solid 1px white;
-        background-color: rgb(100, 34, 34);
-        padding-right: 50px;
-        display:block;
-    }
-
-    /* wines.html - wine-display container and items selectors */
-
-
-    .wine-display-container-tabs {
-        height: auto;
-    }
-
-    div.wine-display-container > div.tab-content > div.tab-pane > .row {
-        margin-top: 50px;
-    }
-
-    .wine-display-wines-page {
-        width: 90%;
-        height: 200px;
-        max-height: 400px;
-        color: rgb(0, 0, 0);
-        background-color: rgb(125, 125, 125);
-        background-color: rgba(255, 255, 255, 0.5);
-        font-weight: 900;
-        margin: 0 4%;
-        border-bottom: rgba(0, 0, 0, 0.8) solid 1px;
-        overflow: hidden;
-    }
-
-    .header-paragraph-container {
-        padding: 10px 0 10px 50px;
-    }
-
     /* Footer Selectors */
     footer {
         background-color: rgb(100, 34, 34);
@@ -552,11 +370,9 @@
         padding: 30px;
     }
 
-    div.footer-row div.col-sm-6{
-        display:block;
+    div.footer-row div.col-sm-6 {
+        display: block;
     }
-
-
 
     .footer-row h2 {
         font-size: 2.5em;
@@ -600,10 +416,11 @@
         font-size: 1.3em;
     }
 
-    .customer-page-comments-container {
-
-        padding-top: 50px;
+    .customer-feedback-section{
+        margin-top:70px;
     }
+
+
 
     /* AboutUs.html page selectors */
     .info-section {
@@ -611,6 +428,7 @@
         padding: 10px 0 10px 0;
         color: black;
         font-family: 'Marck Script', sans-serif;
+    !important;
     }
 
     .info-section p {
@@ -625,11 +443,10 @@
 
     .about-us-container header.about-us-header h1 {
         color: black;
-        font-size:3em;
-        padding-left:20px;
+        font-size: 3em;
+        padding-left: 20px;
         vertical-align: bottom;
     }
-
 
     div.row > div.about-us-info {
         padding-top: 20px;
@@ -640,7 +457,7 @@
         color: rgb(0, 0, 0);
         line-height: 2.2em;
         font-size: 1.2em;
-        margin-top:0px;
+        margin-top: 0px;
     }
 
     .contact-info h1 {
@@ -664,7 +481,7 @@
 
         width: 650px;
         height: 350px;
-        padding:20px;
+        padding: 20px;
     }
 
     /*basketPage.html Selectors*/
@@ -719,197 +536,6 @@
 
     div.basket-container > div.navbar.navbar-inverse > div.navbar-header > a {
         margin-top: 10px;
-    }
-
-    /*Enquiry Form PAge*/
-    .enquiry-form-container {
-        margin-top: 50px;
-        margin-bottom: 50px;
-    }
-
-    #enquiry-form label {
-        width: 100%;
-        font-size: 1.3em;
-        color: black;
-    }
-
-    #enquiry-form #newsNotificationCheckbox {
-        font-size: 1em;
-        color: black;
-        margin: 10px 0 0 0;
-        width: 80%;
-    }
-
-
-    #enquiry-form-message-input {
-        width: 100%;
-        display: inline-flex;
-    }
-
-    #enquiry-form textarea {
-        background: rgba(255, 255, 255, 0.5);
-        width: 60%;
-        resize: none;
-        margin-bottom: 20px;
-        font-size: 1.3em;
-        -webkit-transition: width 0.4s ease-in-out;
-        transition: width 0.4s ease-in-out;
-    }
-
-    #enquiry-form textarea:focus {
-        outline: none;
-        width: 70%;
-    }
-
-    #enquiry-form input {
-        width: 25%;
-        margin-bottom: 20px;
-        -webkit-transition: width 0.4s ease-in-out;
-        transition: width 0.4s ease-in-out;
-        padding: 0 5px;
-        margin-top: 5px;
-    }
-
-    #enquiry-form select {
-        margin-bottom: 20px;
-        margin-top: 3px;
-    }
-
-    #enquiry-form input {
-
-        border: none;
-        border-bottom: 1px solid black;
-        background: rgba(255, 255, 255, 0.5);
-    }
-
-    #enquiry-form input:not(#checkboxes):focus {
-        outline: none;
-        color: black;
-        width: 35%;
-    }
-
-    .error {
-        border: 1px red solid;
-    }
-
-    #enquiry-form .ng-invalid.ng-touched {
-        box-shadow: 1px 1px 30px rgb(100, 34, 34);
-    }
-
-    #enquiry-form .ng-valid {
-        box-shadow: 0 0 30px green;
-    }
-
-    #form-message-field {
-        height: 60px;
-    }
-
-    form label input#checkboxes {
-        width: 50px;
-    }
-
-    #enquiry-form {
-        background-color: rgba(255, 255, 255, 0.5);
-        padding: 20px;
-        font-family: 'Dosis', sans-serif;
-    }
-
-    #enquiry-form h1 {
-        font-size:5em;
-        color: black;
-    }
-
-    #enquiry-form-message-input p:last-child {
-        margin: 20px 0 0 10px;
-        height: 80px;
-    }
-
-    #enquiry-form label span , #enquiry-form  #enquiry-form-message-input p{
-        color:red;
-        margin-bottom:20px;
-    }
-
-    /*order form Page */
-    #enquiry-form div.row div.col-lg-4 input {
-        width: 75%;
-    }
-
-    #enquiry-form div.row div.col-lg-4 {
-        padding: 0;
-    }
-
-    #check-postcode {
-
-        top: 20px;
-        right: 0;
-        left: 0;
-        width: 150px;
-    }
-
-    #postcodeSelect {
-        width: 40%;
-    }
-
-    #enquiry-form > label:nth-child(11) > a {
-        margin-bottom: 10px !important;
-    }
-
-    #addressContainer {
-        display: none;
-    }
-
-    #addressLine1, #addressLine2 {
-        width: 30%;
-    }
-
-    .error-message {
-
-        position: absolute;
-        font-size: 0.8em;
-        margin-top: 20px;
-        color: red;
-        font-weight: bold;
-    }
-
-    .error-message-basket-empty{
-        font-size: 1.5em;
-        margin-top: 20px;
-        color: red;
-        font-weight: bold;
-        text-align:center;
-
-    }
-
-
-
-    .basket-price-confirmation{
-
-        font-size:1.8em;
-    }
-
-    .basket-price-confirmation li{
-        padding-right:20px;
-    }
-
-    #order-form-backToBasket-button{
-
-        font-size:1.5em;
-    }
-
-    section.order-confirmation-main-container{
-
-        background-image: url('../img/bashcorpo_com__paper1.jpg'); ;
-    }
-
-    section div.order-confirmation-inner-container{
-        margin:0 auto;
-        background-color:rgb(238,238,238);
-    }
-
-    div.order-confirmation-inner-container div.col-md-12 > h1{
-        color:black;
-        border-top:1px solid black;
-        padding: 30px 0 20px 20px;
     }
 
 }

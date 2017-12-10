@@ -1,0 +1,210 @@
+@media screen and (min-width:300px) {
+    /*Enquiry Form PAge*/
+
+
+
+    .enquiry-form-container {
+        margin-top: 80px;
+        margin-bottom: 50px;
+    }
+
+    #enquiry-form label {
+        width: 100%;
+        font-size: 1.3em;
+        color: black;
+    }
+
+    #enquiry-form #newsNotificationCheckbox {
+        font-size: 1em;
+        color: black;
+        margin: 10px 0 0 0;
+        width: 80%;
+    }
+
+    #enquiry-form-message-input {
+        width: 100%;
+        display: inline-flex;
+    }
+
+    #enquiry-form label span, #enquiry-form #enquiry-form-message-input span {
+        color: red;
+        margin-bottom: 20px;
+    }
+
+    #enquiry-form textarea {
+        background: rgba(255, 255, 255, 0.5);
+        width: 60%;
+        resize: none;
+        margin-bottom: 20px;
+        font-size: 1.3em;
+        -webkit-transition: width 0.4s ease-in-out;
+        transition: width 0.4s ease-in-out;
+    }
+
+    #enquiry-form textarea:focus {
+        outline: none;
+        width: 70%;
+    }
+
+    #enquiry-form input {
+        width: 60%;
+        margin-bottom: 20px;
+        -webkit-transition: width 0.4s ease-in-out;
+        transition: width 0.4s ease-in-out;
+        padding: 0 5px;
+        margin-top: 5px;
+    }
+
+    #enquiry-form select {
+        margin-bottom: 20px;
+        margin-top: 3px;
+    }
+
+    #enquiry-form input {
+
+        border: none;
+        border-bottom: 1px solid black;
+        background: rgba(255, 255, 255, 0.5);
+    }
+
+    .error {
+        border: 1px red solid;
+    }
+
+    #enquiry-form .ng-invalid.ng-touched {
+        box-shadow: 1px 1px 30px rgb(100, 34, 34);
+    }
+
+    #enquiry-form .ng-valid {
+        box-shadow: 0 0 30px green;
+    }
+
+    #form-message-field {
+        height: 60px;
+    }
+
+    form label input#checkboxes {
+        width: 50px;
+    }
+
+    #enquiry-form {
+        background-color: rgba(255, 255, 255, 0.5);
+        padding: 20px;
+    }
+
+    #enquiry-form h1 {
+        font-size: 2.2em;
+        color: black;
+        margin-bottom: 20px;
+    }
+
+    #enquiry-form-message-input p:last-child {
+        margin: 20px 0 0 10px;
+        height: 80px;
+    }
+
+    /*order form Page */
+    #enquiry-form div.row div.col-lg-4 input {
+        width: 75%;
+    }
+
+    #enquiry-form div.row div.col-lg-4 {
+        padding: 0;
+    }
+
+    #check-postcode {
+
+        top: 20px;
+        right: 0;
+        left: 0;
+        width: 150px;
+    }
+
+    #postcodeSelect {
+        width: 40%;
+    }
+
+    #enquiry-form > label:nth-child(11) > a {
+        margin-bottom: 10px
+    }
+
+    #enquiry-form {
+        background-color: rgba(255, 255, 255, 0.5);
+        padding: 20px;
+        font-family: 'Dosis', sans-serif;
+    }
+
+    #addressContainer {
+        display: none;
+    }
+
+    #addressLine1, #addressLine2 {
+        width: 30%;
+    }
+
+    .wine-stock-error-message {
+
+        position: absolute;
+        font-size: 0.8em;
+        margin-top: 20px;
+        color: red;
+        font-weight: bold;
+    }
+
+    .carousel-image-header-container {
+        font-family: 'Marck Script', sans-serif;
+        width: 80%;
+        height: auto;
+        position: absolute;
+        margin: 0 0 0 10%;
+        opacity: 1;
+        background-color: rgba(0, 0, 0, 0.5);
+
+    }
+
+    .carousel-inner .item.active > header.carousel-image-header-container p {
+        opacity: 1;
+        transition-delay: 1s;
+        transition: opacity 1s;
+        -webkit-transition: opacity 1s;
+        transition-timing-function: ease-in;
+        color: white;
+        padding: 20px;
+    }
+
+    div.carousel-header-div-container img {
+        display: none;
+    }
+
+    div.carousel-header-div-container .customer-page-comment-h2 {
+        color: white;
+        padding: 10px;
+    }
+
+    body > div > section > div > div > div.col-md-4.col-xs-12.ng-scope > h1{
+        font-size:5em;
+        padding-left:10px;
+        color:black;
+        font-align:center;
+
+    }
+
+    .basket-price-confirmation{
+
+        font-size:1em;
+    }
+
+
+    #order-form-backToBasket-button{
+
+        font-size:1em;
+    }
+
+    .basket-price-quantity li{
+
+        font-size:1.3em;
+        margin-right:10px;
+
+    }
+
+}

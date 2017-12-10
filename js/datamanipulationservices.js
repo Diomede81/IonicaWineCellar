@@ -220,7 +220,7 @@
                     else {
 
                         angular.element(basketWineContent[i]).find('input').removeClass('error');
-                        angular.element(basketWineContent[i]).find('.error-message').html("");
+                        angular.element(basketWineContent[i]).find('.error-message').html('');
 
                     }
                 },

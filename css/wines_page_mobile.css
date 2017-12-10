@@ -1,0 +1,114 @@
+@media screen and (min-width:300px) {
+
+    /* wines.html page - nav-tab selectors */
+    .nav.nav-tabs {
+
+        border: solid 1px white;
+        background-color: rgb(100, 34, 34);
+    }
+
+    .nav.nav-tabs a {
+        color: black;
+        font-weight: bold;
+        font-size: 2.5em;
+    }
+
+    #red .header-paragraph-container h1 {
+        color: white;
+        font-size: 3em!important;
+    }
+
+    #white .header-paragraph-container h1 {
+        font-size: 3em;
+        color: #333;
+    }
+
+    #sparkling .header-paragraph-container h2 {
+        font-size: 2.5em;
+        margin-bottom: 20px;
+    }
+
+    .wine-list-container {
+        padding-bottom: 30px;
+    }
+
+    /* wines.html - wines filter sidebar selectors */
+    form.wine-region h2 {
+        font-size: 1.8em;
+    }
+
+    form.wine-region div label {
+        font-size: 1.4em;
+    }
+
+    .wines-stock-container {
+        height: auto;
+        display: flex;
+    }
+
+    #red {
+        background-image: url("../img/redwinesbackground.jpg");
+        background-size: cover;
+        color: white;
+    }
+
+    #white {
+        background-image: url("../img/most beautiful wine high resolution wallpaper.jpg");
+        background-size: cover;
+
+    }
+
+    #sparkling {
+        background-image: url("../img/sparkling.jpg");
+        background-size: cover;
+    }
+
+    .tab-pane {
+        border: solid 1px white;
+    }
+
+    .wines-filter-options .form-group {
+        font-weight: bold;
+        color: black;
+        margin-top: 100px;
+        margin-left: 20px;
+    }
+
+    .wines-filter-full-container {
+        border-right: solid 1px white;
+        border-left: solid 1px white;
+        background-color: rgb(100, 34, 34);
+        padding-right: 50px;
+        display: none;
+    }
+
+    /* wines.html - wine-display container and items selectors */
+    div.wines-stock-container {
+        width: 100%;
+    }
+
+    .wine-display-container-tabs {
+        height: auto;
+        width: 100%;
+    }
+
+    div.wine-display-container > div.tab-content > div.tab-pane > .row {
+        margin-top: 50px;
+    }
+
+    .wine-display-wines-page {
+        width: 90%;
+        height: 200px;
+        max-height: 400px;
+        color: rgb(0, 0, 0);
+        background-color: rgba(255, 255, 255, 0.5);
+        font-weight: 900;
+        margin: 0 4%;
+        border-bottom: rgba(0, 0, 0, 0.8) solid 1px;
+        overflow: hidden;
+    }
+
+    .header-paragraph-container {
+        padding: 10px 0 10px 20px;
+    }
+}

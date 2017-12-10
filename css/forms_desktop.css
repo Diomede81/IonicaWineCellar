@@ -1,0 +1,186 @@
+
+@media screen and (min-width:992px) {
+/*Enquiry Form PAge*/
+
+    #newsNotificationCheckbox{
+
+        font-size:1.3em;
+        margin-bottom:10px;
+    }
+
+    .enquiry-form-container {
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+
+    body > div > section > div > div > div.col-md-4.col-xs-12.ng-scope > h1{
+        font-size:4em;
+        padding:20px;
+
+    }
+
+    #enquiry-form label {
+        width: 100%;
+        font-size: 1.3em;
+        color: black;
+    }
+
+    #enquiry-form #newsNotificationCheckbox {
+        font-size: 1em;
+        color: black;
+        margin: 10px 0 0 0;
+        width: 80%;
+    }
+
+
+    #enquiry-form-message-input {
+        width: 100%;
+        display: inline-flex;
+    }
+
+    #enquiry-form textarea {
+        background: rgba(255, 255, 255, 0.5);
+        width: 60%;
+        resize: none;
+        margin-bottom: 20px;
+        font-size: 1.3em;
+        -webkit-transition: width 0.4s ease-in-out;
+        transition: width 0.4s ease-in-out;
+    }
+
+    #enquiry-form textarea:focus {
+        outline: none;
+        width: 70%;
+    }
+
+    #enquiry-form input {
+        width: 25%;
+        margin-bottom: 20px;
+        -webkit-transition: width 0.4s ease-in-out;
+        transition: width 0.4s ease-in-out;
+        padding: 0 5px;
+        margin-top: 5px;
+    }
+
+    #enquiry-form select {
+        margin-bottom: 20px;
+        margin-top: 3px;
+    }
+
+    #enquiry-form input {
+
+        border: none;
+        border-bottom: 1px solid black;
+        background: rgba(255, 255, 255, 0.5);
+    }
+
+    #enquiry-form input:not(#checkboxes):focus {
+        outline: none;
+        color: black;
+        width: 35%;
+    }
+
+    .error {
+        border: 1px red solid;
+    }
+
+    #enquiry-form .ng-invalid.ng-touched {
+        box-shadow: 1px 1px 30px rgb(100, 34, 34);
+    }
+
+    #enquiry-form .ng-valid {
+        box-shadow: 0 0 30px green;
+    }
+
+    #form-message-field {
+        height: 60px;
+    }
+
+    form label input#checkboxes {
+        width: 50px;
+    }
+
+    #enquiry-form {
+        background-color: rgba(255, 255, 255, 0.5);
+        padding: 20px;
+        font-family: 'Dosis', sans-serif;
+    }
+
+    #enquiry-form h1 {
+        font-size:5em;
+        color: black;
+    }
+
+    #enquiry-form-message-input p:last-child {
+        margin: 20px 0 0 10px;
+        height: 80px;
+    }
+
+    #enquiry-form label span , #enquiry-form  #enquiry-form-message-input p{
+        color:red;
+        margin-bottom:20px;
+    }
+
+    /*order form Page */
+    #enquiry-form div.row div.col-lg-4 input {
+        width: 75%;
+    }
+
+    #enquiry-form div.row div.col-lg-4 {
+        padding: 0;
+    }
+
+    #check-postcode {
+
+        top: 20px;
+        right: 0;
+        left: 0;
+        width: 150px;
+    }
+
+    #postcodeSelect {
+        width: 40%;
+    }
+
+    .postcode-message{
+        display:none;
+    }
+
+    #enquiry-form > label:nth-child(11) > a {
+        margin-bottom: 10px !important;
+    }
+
+    #addressContainer {
+        display: none;
+    }
+
+    #addressLine1, #addressLine2 {
+        width: 30%;
+    }
+
+    .error-message {
+
+        position: absolute;
+        font-size: 0.8em;
+        margin-top: 20px;
+        color: red;
+        font-weight: bold;
+    }
+
+    .error-message-basket-empty{
+        font-size: 1.5em;
+        margin-top: 20px;
+        color: red;
+        font-weight: bold;
+        text-align:center;
+
+    }
+
+    .basket-price-quantity li{
+
+        font-size:1.3em;
+        margin-right:10px;
+
+    }
+
+}
