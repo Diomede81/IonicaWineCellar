@@ -5,7 +5,8 @@
   "main": "karma.conf.js",
   "dependencies": {
     "karma": "^1.7.1",
-    "karma-phantomjs-launcher": "^1.0.4"
+    "karma-phantomjs-launcher": "^1.0.4",
+    "snyk": "^1.316.1"
   },
   "devDependencies": {
     "jasmine-core": "^2.8.0",
@@ -18,7 +19,9 @@
     "live-server": "^1.2.0"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "snyk-protect": "snyk protect",
+    "prepare": "npm run snyk-protect"
   },
   "repository": {
     "type": "git",
@@ -29,5 +32,6 @@
   "bugs": {
     "url": "https://github.com/Diomede81/ionicawinecellar/issues"
   },
-  "homepage": "https://github.com/Diomede81/ionicawinecellar#readme"
+  "homepage": "https://github.com/Diomede81/ionicawinecellar#readme",
+  "snyk": true
 }
