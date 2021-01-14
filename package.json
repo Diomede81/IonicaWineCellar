@@ -4,7 +4,7 @@
   "description": "Wine wholesale application",
   "main": "karma.conf.js",
   "dependencies": {
-    "karma": "^1.7.1",
+    "karma": "^6.0.0",
     "karma-phantomjs-launcher": "^1.0.4"
   },
   "devDependencies": {
