@@ -4,7 +4,7 @@
   "description": "Wine wholesale application",
   "main": "karma.conf.js",
   "dependencies": {
-    "karma": "^1.7.1",
+    "karma": "^6.4.1",
     "karma-phantomjs-launcher": "^1.0.4"
   },
   "devDependencies": {
@@ -15,7 +15,7 @@
     "karma-jasmine": "^1.1.0",
     "karma-jasmine-jquery": "^0.1.1",
     "karma-opera-launcher": "^1.0.0",
-    "live-server": "^1.2.0"
+    "live-server": "^1.2.2"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
